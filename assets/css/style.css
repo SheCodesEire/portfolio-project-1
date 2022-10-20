@@ -9,6 +9,8 @@ header { padding-bottom: 20px;
         display: flex;
         flex-wrap: wrap;}
 
+header a {flex: 50%;}
+
 body { font-family: Source sans pro, serif;
        font-weight:400;
        color: rgb(64, 64, 64);
@@ -26,6 +28,8 @@ h1, h2 {
         margin-left: 20px;
         padding-top: 25px;
          }
+
+
 
 #nav-menu {
        font-size: 120%;
@@ -113,10 +117,11 @@ h1, h2 {
 @media screen and (max-width: 992px) {
         #nav-menu {
                 
-                clear: left;
-                float: left;
+              /**  clear: left;
+                float: left; **/
                 margin-left: 1.25rem;
-                line-height: 1rem; }
+                line-height: 1rem;
+                padding-top: 0; }
         }
 
-        #nav-menu li { padding-top: 0;}
+        
