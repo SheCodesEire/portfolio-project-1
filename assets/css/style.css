@@ -99,6 +99,9 @@ h1, h2 {
 }
 
 
+#welcome-section {
+        background-color: rgb(252, 245, 232);
+}
 
 
 /* Media Queries */ 
