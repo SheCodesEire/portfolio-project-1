@@ -37,12 +37,36 @@ h1, h2 {
          margin-right: 30px;
           padding-top: 40px;}
 
+
+          /** Hero image cover text**/
+
+#hero-section {
+        position: relative;
+        display: flex;
+        justify-content: center;
+}
+
 #hero-image {
         height: 600px;
         width: 100%;
         background: url('../images/hero-image.jpg') no-repeat center center;
-        background-size: cover;
-        
-       
+        background-size: cover;  
         
 }
+
+
+#cover-text{ 
+        color: #fff;
+        width: 300px;
+        height: 300px;
+        
+        position: absolute; 
+        background-color: black;
+
+        align-self: center;
+
+        /** Alternate for positioning without flex:  bottom: 50px;
+        left: 100px; **/
+
+}
+
