@@ -57,16 +57,30 @@ h1, h2 {
 
 #cover-text{ 
         color: #fff;
-        width: 300px;
-        height: 300px;
+        width: auto;
+        height: auto;
+
+        padding: 40px;
         
         position: absolute; 
         background-color: black;
 
         align-self: center;
+        
 
         /** Alternate for positioning without flex:  bottom: 50px;
         left: 100px; **/
 
+}
+
+#cover-text h2 {
+        font-size: 300%;
+        text-align: center;
+        padding-bottom: 80px;
+}
+
+#cover-text h3 {
+        font-size: 150%;
+        text-align: center;
 }
 
