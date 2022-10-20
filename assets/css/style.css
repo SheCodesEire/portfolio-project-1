@@ -101,6 +101,19 @@ h1, h2 {
 
 #welcome-section {
         background-color: rgb(252, 245, 232);
+        padding-top: 60px;
+        padding-bottom: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+#welcome-text {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        border-style: solid;
+        border-color:rgb(64, 64, 64);
+        border-radius: 30px;
+        height: 600px;
 }
 
 
