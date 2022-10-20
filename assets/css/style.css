@@ -9,11 +9,13 @@ header { padding-bottom: 20px;}
 
 body { font-family: Source sans pro, serif;
        font-weight:400;
+       color: rgb(64, 64, 64);
         }
 
 h1, h2 { 
          font-family: Playfair Display, sans-serif;
          font-weight: 400;
+         color: rgb(64, 64, 64);
         }
 
 
@@ -34,9 +36,12 @@ h1, h2 {
 #nav-menu li {
         flex-direction: row; 
         list-style-type: none;
-         margin-right: 30px;
-          padding-top: 40px;}
-
+        margin-right: 30px;
+        padding-top: 40px;
+        }
+#nav-menu li a {
+        color: rgb(64, 64, 64);
+}
 
           /** Hero image cover text**/
 
