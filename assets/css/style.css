@@ -84,3 +84,17 @@ h1, h2 {
         text-align: center;
 }
 
+
+
+
+/* Media Queries */ 
+
+@media screen and (max-width: 768px) {
+        #cover-text h2 {
+                font-size: 150%;
+                padding-bottom: 60px; }
+        
+        #cover-text h3 {
+                font-size: 100%; }
+
+}
