@@ -148,7 +148,9 @@ h1, h2 {
                 line-height: 1rem;
                 padding-top: 40px; }
         }
-
+        #welcome-section {
+                height:auto;
+        }
         
         @media screen and (max-width: 768px) {
                 #cover-text h2 {
