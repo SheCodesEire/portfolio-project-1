@@ -133,6 +133,20 @@ h1, h2 {
         padding-right: 40px;
 }
 
+.button {
+        font-size: 150%;
+        font-weight: 600;
+        color: white;
+        background-image: linear-gradient(to top, #4ca1af, #c4e0e5);
+        border-radius: 10px;
+        padding: 10px 20px 10px 20px;
+}
+
+#button-container {
+        margin-bottom: 40px;
+        text-align: center;
+}
+
 
 
 /* Media Queries */ 
