@@ -26,7 +26,7 @@ h1, h2 {
 #logo { font-size: 250%;
         float: left; 
         margin-left: 20px;
-        padding-top: 25px;
+        padding-top: 40px;
          }
 
 
@@ -114,7 +114,7 @@ h1, h2 {
         text-align: center;
         
 
-        /** border-style: solid;
+        /** border-style: solid 1px;
         border-color:rgb(64, 64, 64);
         border-radius: 30px; **/
         
