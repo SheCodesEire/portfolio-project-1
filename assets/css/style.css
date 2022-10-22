@@ -192,6 +192,7 @@ h1, h2 {
         width:100%;
         position: relative;
         transition: transform .8s;
+        transform-style: preserve-3d;
 }
 
 .front, .back {
