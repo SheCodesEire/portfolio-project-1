@@ -296,9 +296,8 @@ h1, h2 {
 }
 
 #section-break {
-        border: solid antiquewhite 5px;
-        border-bottom: none; 
-        width: 100%
+        border: solid antiquewhite 4px;
+        width: 100%;
         margin: 0 auto;
         
 }
