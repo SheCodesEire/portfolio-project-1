@@ -192,6 +192,15 @@ h1, h2 {
         width: 100%;
 }
 
+#card-one-front {
+       background-image: url(/assets/images/flip-card-A.jpg);
+       width: 100%;
+       height: 100%;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: 50%;
+}
+
 
 
 
