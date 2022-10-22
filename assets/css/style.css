@@ -190,6 +190,8 @@ h1, h2 {
 .front, .back {
         height: 100%;
         width: 100%;
+        border-radius: 20px;
+        box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25)
 }
 
 #card-one-front {
