@@ -245,6 +245,16 @@ h1, h2 {
 
 }
 
+#card-back-text a {
+        font-weight: bold;
+        color: rgb(64, 64, 64);
+        text-decoration: none;
+}
+
+#card-back-text a:hover {
+        
+        text-decoration:underline;
+}
 
 
 
@@ -310,13 +320,13 @@ h1, h2 {
                 width: 300px;
                 height: 400px;}
 
-         #card-one-back h2 {
+         #card-back-text h2 {
                 font-size: 100%;
                 padding: 20px;
                 letter-spacing: 1px;
                 }
                 
-                #card-one-back p {
+                #card-back-text p {
                 font-size: 100%;
                 padding-left: 10px;
                 padding-right: 10px;
