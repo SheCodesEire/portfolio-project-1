@@ -256,6 +256,19 @@ h1, h2 {
         text-decoration:underline;
 }
 
+#reviews-section {
+        background-color: rgb(252, 245, 232);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 40px;
+        padding-right: 40px; }
+
+#reviews-container {
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+}
+
 
 
 /* Media Queries */ 
