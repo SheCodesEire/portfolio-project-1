@@ -182,6 +182,11 @@ h1, h2 {
         height: 500px;
 }
 
+.outter-container:hover > .flip-card {
+        transform: rotateY(180deg);
+        cursor: pointer;
+}
+
 .flip-card {
         height: 100%;
         width:100%;
