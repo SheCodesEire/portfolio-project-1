@@ -280,6 +280,10 @@ h1, h2 {
         .flip-cards-flexcontainer {
                 flex-direction: column; }
 
+        #fc-media-query {
+                padding-bottom: 40px;
+        }
+
 }
         
 
