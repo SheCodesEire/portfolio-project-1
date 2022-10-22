@@ -246,18 +246,6 @@ h1, h2 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Media Queries */ 
 
 
@@ -312,6 +300,26 @@ h1, h2 {
                 font-size: 100%;
         }
 
+        #flip-card-section h1 {
+                font-size: 200%;
+        }
 
+        .outter-container {
+                width: 300px;
+                height: 400px;}
+
+         #card-one-back h2 {
+                font-size: 100%;
+                padding: 20px;
+                letter-spacing: 1px;
+                }
+                
+                #card-one-back p {
+                font-size: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
 
         }
+
+}
