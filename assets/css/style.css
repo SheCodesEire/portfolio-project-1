@@ -191,6 +191,7 @@ h1, h2 {
         height: 100%;
         width:100%;
         position: relative;
+        transition: transform .8s;
 }
 
 .front, .back {
@@ -208,6 +209,11 @@ h1, h2 {
        background-repeat: no-repeat;
        background-size: cover;
        background-position: 50%;
+}
+
+.back {
+        background-color: #ffdde1;
+        transform: rotateY(180deg);
 }
 
 
