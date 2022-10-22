@@ -185,13 +185,15 @@ h1, h2 {
 .flip-card {
         height: 100%;
         width:100%;
+        position: relative;
 }
 
 .front, .back {
         height: 100%;
         width: 100%;
         border-radius: 20px;
-        box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25)
+        box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25);
+        position: absolute;
 }
 
 #card-one-front {
