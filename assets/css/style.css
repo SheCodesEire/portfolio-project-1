@@ -269,10 +269,20 @@ h1, h2 {
                 margin-left: 1.25rem;
                 line-height: 1rem;
                 padding-top: 40px; }
-        }
+        
         #welcome-section {
                 height:auto;
         }
+
+        #flip-card-section h1 {
+                font-size: 300%; }
+
+        .flip-cards-flexcontainer {
+                flex-direction: column; }
+
+}
+        
+
         
         @media screen and (max-width: 768px) {
                 #cover-text h2 {
