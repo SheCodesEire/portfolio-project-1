@@ -231,13 +231,13 @@ h1, h2 {
         transform: rotateY(180deg);
 }
 
-#card-one-back h2 {
+#card-back-text h2 {
         font-size: 200%;
         padding: 20px;
         letter-spacing: 1px;
 }
 
-#card-one-back p {
+#card-back-text p {
         font-size: 120%;
         padding-left: 20px;
         padding-right: 20px;
