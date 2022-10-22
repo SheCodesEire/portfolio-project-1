@@ -160,22 +160,23 @@ h1, h2 {
         background-color: #daeff0;
         padding-top: 100px;
         padding-bottom: 100px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 10%;
+        padding-right: 10%;
         text-align:center;
         box-sizing:border-box; }
 
 #flip-card-section h1 {
         font-size: 400%;
-        padding-bottom: 40px;
+        padding-bottom: 100px;
 }
 
 
 .flip-cards-flexcontainer {
+        
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
+        align-items:center;
 }
 
 .outter-container {
@@ -214,6 +215,14 @@ h1, h2 {
        background-size: cover;
        background-position: 50%;
 }
+
+#card-two-front {
+        background-image: url(/assets/images/flip-card-B.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%; }
 
 .back {
         background-color: #ffdde1;
