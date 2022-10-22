@@ -305,8 +305,8 @@ h1, h2 {
 #footer-main {
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        align-items: stretch;
+        justify-content: space-evenly;
+        ;
 }
 
 
