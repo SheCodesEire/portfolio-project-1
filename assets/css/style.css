@@ -173,6 +173,7 @@ h1, h2 {
 
 .flip-cards-flexcontainer {
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
 }
