@@ -447,5 +447,11 @@ h1, h2 {
                 padding-bottom: 10px;
 
         }
+        
+        #footer-main {
+                justify-content: space-between;
+                flex-flow: wrap;
+                font-size: 80%;
 
+        }
 }
