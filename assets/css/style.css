@@ -63,7 +63,7 @@ h1, h2 {
 
           /** Hero image cover text**/
 
-#hero-section {
+.hero-section {
         position: relative;
         display: flex;
         justify-content: center; 
@@ -78,7 +78,7 @@ h1, h2 {
 }
 
 
-#cover-text{ 
+.cover-text{ 
         color: rgb(64, 64, 64);
         width: auto;
         height: auto;
@@ -96,13 +96,13 @@ h1, h2 {
 
 }
 
-#cover-text h2 {
+.cover-text h2 {
         font-size: 300%;
         text-align: center;
         padding-bottom: 40px;
 }
 
-#cover-text h3 {
+.cover-text h3 {
         font-size: 150%;
         text-align: center;
 }
@@ -370,6 +370,27 @@ h1, h2 {
         padding-right: 1.5rem;
 }
 
+/**Menu Page CSS **/
+
+#menu-section {
+        display: flex;
+        justify-content: center;
+        position: relative;
+}
+
+#menu-img {
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 /* Media Queries */ 
@@ -403,11 +424,11 @@ h1, h2 {
 
         
         @media screen and (max-width: 768px) {
-                #cover-text h2 {
+                .cover-text h2 {
                         font-size: 150%;
                         padding-bottom: 60px; }
                 
-                #cover-text h3 {
+                .cover-text h3 {
                         font-size: 100%; }
                 
                 #nav-menu {
