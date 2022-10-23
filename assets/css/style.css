@@ -328,9 +328,9 @@ h1, h2 {
         display: flex;
         justify-content: center;
         align-items: center; 
-        gap: 2%;
-        padding-top: 40px;
-        font-size: 150%;
+        gap: 20%;
+        padding-top: 10px;
+        font-size: 100%;
 }
 
 #social-links {
