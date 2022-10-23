@@ -320,6 +320,10 @@ h1, h2 {
         color: #728c69;
 }
 
+#footer-address a:hover {
+        font-size: 110%;
+}
+
 #footer-contact a {
         display:flex;
         justify-content: center;
