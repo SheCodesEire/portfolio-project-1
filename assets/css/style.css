@@ -151,6 +151,13 @@ h1, h2 {
         padding: 10px 20px 10px 20px;
 }
 
+#button-container a:hover {
+        background-color: #728c69;
+        background-image: none;
+        padding: 12px 22px 12px 22px;
+        
+}
+
 
 #button-container {
         margin-bottom: 40px;
