@@ -372,18 +372,12 @@ h1, h2 {
 
 /**Menu Page CSS **/
 
-#menu-section {
-        display: flex;
-        justify-content: center;
-        position: relative;
-}
-
 #menu-img {
-
-
+        height: 300px;
+        width: 100%;
+        background: url('../images/mountain-grass.jpg') no-repeat center center;
+        background-size: cover;  
 }
-
-
 
 
 
