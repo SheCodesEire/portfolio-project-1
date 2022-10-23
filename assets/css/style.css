@@ -141,7 +141,7 @@ h1, h2 {
         padding-right: 40px;
 }
 
-#button {
+.button {
         font-size: 150%;
         font-weight: 600;
         color: white;
@@ -151,18 +151,22 @@ h1, h2 {
         padding: 10px 20px 10px 20px;
 }
 
-#button-container a:hover {
-        background-color: #728c69;
-        background-image: none;
+
+
+
+.button-container {
+        margin-bottom: 40px;
+        text-align: center;
+}
+
+
+.button-container a:hover {
+        background-color:#728c69;
+        background-image:none;
         padding: 12px 22px 12px 22px;
         
 }
 
-
-#button-container {
-        margin-bottom: 40px;
-        text-align: center;
-}
 
 
 #flip-card-section {
@@ -238,13 +242,13 @@ h1, h2 {
         transform: rotateY(180deg);
 }
 
-#card-back-text h2 {
+.back h2 {
         font-size: 200%;
         padding: 20px;
         letter-spacing: 1px;
 }
 
-#card-back-text p {
+.back p {
         font-size: 120%;
         padding-left: 20px;
         padding-right: 20px;
@@ -252,13 +256,13 @@ h1, h2 {
 
 }
 
-#card-back-text a {
+.back a {
         font-weight: bold;
         color: rgb(64, 64, 64);
         text-decoration: none;
 }
 
-#card-back-text a:hover {
+.back a:hover {
         
         text-decoration:underline;
 }
@@ -434,13 +438,13 @@ h1, h2 {
                 width: 300px;
                 height: 400px;}
 
-         #card-back-text h2 {
+         .back h2 {
                 font-size: 100%;
                 padding: 20px;
                 letter-spacing: 1px;
                 }
                 
-                #card-back-text p {
+                .back p {
                 font-size: 100%;
                 padding-left: 10px;
                 padding-right: 10px;
