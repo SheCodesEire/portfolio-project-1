@@ -41,8 +41,8 @@ h1, h2 {
 }
 
 #nav-menu a:hover {
-        background-image: linear-gradient(to top, #141e30, #243b55);
-        color: antiquewhite;
+        background-image: linear-gradient(to top, #728c69, #b2d3c2);
+        color: white;
         border-radius: 8px;
         padding: 5px;
 }
