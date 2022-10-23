@@ -338,7 +338,7 @@ h1, h2 {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 20px;
+        padding-top: 40px;
         
         
 }
@@ -347,7 +347,7 @@ h1, h2 {
         list-style-type: none;
         display: inline;
         font-size: 120%;
-        padding-right: 20px;
+        padding-right: 1.5rem;
 }
 
 
