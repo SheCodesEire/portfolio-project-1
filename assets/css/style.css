@@ -450,6 +450,10 @@ h1, h2 {
                 #reviews-container {
                         flex-direction: column;
                 }
+
+                #menu-hero-text {
+                        font-size: 200%;
+                }
         }
 
         @media screen and (max-width: 600px) {
@@ -490,5 +494,9 @@ h1, h2 {
                 flex-flow: wrap;
                 font-size: 80%;
 
+        }
+
+        #menu-hero-text {
+                font-size: 120%;
         }
 }
