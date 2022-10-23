@@ -314,6 +314,15 @@ h1, h2 {
         color: rgb(64, 64, 64);
 }
 
+#footer-main-contact a {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        font-size: 120%;
+        text-decoration: none;
+        
+}
 
 
 /* Media Queries */ 
