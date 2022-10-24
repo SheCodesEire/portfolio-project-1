@@ -414,7 +414,7 @@ h1, h2 {
 }
 
 .menu-panels {
-        height: 800px;
+        
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -422,7 +422,7 @@ h1, h2 {
 }
 
 .menu-box {
-        height: 700px;
+        
         width: 25%;
         background-color:#ddead1;
         border-radius: 30px;
