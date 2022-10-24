@@ -452,8 +452,16 @@ h1, h2 {
         
 }
 
+.list-item {
+        padding-top: 8px;
+        text-align: left;
+}
 
-
+.list-item p {
+        padding-top: 8px;
+        font-size: 80%;
+        font-weight: 600;
+}
 
 
 
