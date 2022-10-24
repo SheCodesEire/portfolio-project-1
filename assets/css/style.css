@@ -526,9 +526,9 @@ h1, h2 {
 /** CSS for contact page **/
 
 .contact-main {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+        /**display: flex;
+        justify-content: space-between;
+        flex-direction: row;  **/
         position: relative;
         width: 100%;
         background: url('../images/cliffs-ocean-min.jpg') no-repeat center center;
@@ -536,8 +536,19 @@ h1, h2 {
         background-attachment: fixed;
         padding-top: 200px;
         padding-bottom: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
 
 }
+
+
+.contact-content-container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 80%;
+}
+
 
 .contact-info, .contact-form {
         height: 800px;
