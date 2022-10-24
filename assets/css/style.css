@@ -421,7 +421,7 @@ h1, h2 {
         align-items: center;
 }
 
-.menu-panel-item {
+.menu-box {
         height: 700px;
         width: 25%;
         background-color:#ddead1;
