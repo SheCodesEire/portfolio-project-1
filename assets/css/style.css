@@ -651,3 +651,22 @@ h1, h2 {
                 font-size: 120%;
         }
 }
+
+@media screen and (max-width: 480px) {
+
+        .title, .price {
+                font-size: 85%;
+                text-decoration: underline;
+        }
+
+        #menu-box-three h3 {
+                text-decoration: none;
+        }
+
+
+
+
+
+
+
+}
