@@ -594,15 +594,19 @@ h1, h2 {
                 .cover-text h3 {
                         font-size: 100%; }
                 
-                #nav-menu {
+                /** #nav-menu {
                         padding-top: 0px;
-                }
+                } **/
 
                 #reviews-container {
                         flex-direction: column;
                 }
 
                 #menu-hero-text {
+                        font-size: 200%;
+                }
+
+                #logo {
                         font-size: 200%;
                 }
         }
@@ -661,6 +665,10 @@ h1, h2 {
 
         #menu-box-three h3 {
                 text-decoration: none;
+        }
+
+        #nav-menu {
+                padding-top: 0px;
         }
 
 
