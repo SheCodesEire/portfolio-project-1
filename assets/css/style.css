@@ -503,6 +503,25 @@ h1, h2 {
 
 /* Media Queries */ 
 
+@media screen and (max-width: 1300px) {
+
+        .menu-box {
+                width: 30%;
+        }
+
+        .title, .price {
+                font-size: 85%;
+                text-decoration: underline;
+        }
+
+        #menu-box-three h3 {
+                text-decoration: none;
+        }
+}
+
+
+
+
 
 @media screen and (max-width: 992px) {
         #nav-menu {
