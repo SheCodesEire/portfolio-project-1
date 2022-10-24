@@ -429,10 +429,16 @@ h1, h2 {
         box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25);
 }
 
+.menu-box-text {
+        width: 90%;
+        margin: 0 auto;
+}
+
 .menu-box-text h2 {
         padding-top: 2%;
         font-weight: 600;
         font-size: 150% ;
+        text-align: left;
 }
 
 .menu-box-text hr {
