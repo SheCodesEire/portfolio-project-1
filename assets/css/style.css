@@ -527,6 +527,16 @@ h1, h2 {
                 padding-bottom: 40px;
         }
 
+        .menu-panels {
+                flex-direction: column;
+                gap: 40px;
+        }
+
+        .menu-box {
+                align-self: center;
+                width: 90%;
+        }
+
 }
         
 
