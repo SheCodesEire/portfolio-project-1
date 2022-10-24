@@ -422,7 +422,7 @@ h1, h2 {
 }
 
 .menu-box {
-        
+        height: 900px;
         width: 25%;
         background-color:#ddead1;
         border-radius: 30px;
