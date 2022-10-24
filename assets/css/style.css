@@ -397,6 +397,15 @@ h1, h2 {
         padding-top: 150px;
 }
 
+.menu-main-section {
+        background-color: rgb(252, 245, 232);
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 40px;
+        padding-right: 40px;
+}
+
+
 
 
 
