@@ -656,6 +656,16 @@ h1, h2 {
         }
 }
 
+@media screen and (max-width: 583px) {
+
+        #nav-menu {
+                padding-top: 0;
+        }
+}
+
+
+
+
 @media screen and (max-width: 480px) {
 
         .title, .price {
