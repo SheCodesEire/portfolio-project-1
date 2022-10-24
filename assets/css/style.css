@@ -463,6 +463,18 @@ h1, h2 {
         font-weight: 600;
 }
 
+.title {
+        
+        display: inline;
+        text-align: left;
+}
+.price {
+        
+        display: inline;
+        text-align: right;
+        float: right;
+}
+
 
 
 /* Media Queries */ 
