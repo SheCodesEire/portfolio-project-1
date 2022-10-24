@@ -399,11 +399,21 @@ h1, h2 {
 
 .menu-main-section {
         background-color: rgb(252, 245, 232);
-        padding-top: 100px;
+        padding-top: 60px;
         padding-bottom: 100px;
         padding-left: 40px;
         padding-right: 40px;
+        text-align: center;
+        font-size: 120%;
+        letter-spacing: 1px;
 }
+
+.menu-main-section p {
+        padding-top: 20px;
+        padding-bottom: 40px;
+}
+
+
 
 
 
