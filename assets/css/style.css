@@ -421,6 +421,13 @@ h1, h2 {
         align-items: center;
 }
 
+.menu-panel-item {
+        height: 700px;
+        width: 25%;
+        background-color:#ddead1;
+        border-radius: 30px;
+        box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25);
+}
 
 
 
