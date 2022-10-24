@@ -556,6 +556,12 @@ h1, h2 {
                 width: 90%;
         }
 
+        .title, .price {
+                font-size: 1.17em;
+                text-decoration: none;
+        }
+
+
 }
         
 
