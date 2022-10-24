@@ -509,6 +509,16 @@ h1, h2 {
         letter-spacing: 1px;
 }
 
+.link-section a {
+        color: rgb(64, 64, 64);
+        text-decoration: none;
+}
+
+.link-section a:hover {
+        font-size:110%;
+        color: #728c69;
+}
+
 
 
 /* Media Queries */ 
