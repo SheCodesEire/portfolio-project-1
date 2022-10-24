@@ -423,7 +423,7 @@ h1, h2 {
 
 .menu-box {
         
-        width: 30%;
+        width: 25%;
         background-color:#ddead1;
         border-radius: 30px;
         box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25);
@@ -483,6 +483,13 @@ h1, h2 {
         float: right;
 }
 
+#menu-box-three {
+        padding-bottom: 20px;
+}
+
+#menu-box-three .list-item {
+        padding-bottom: 6px;
+}
 
 
 
