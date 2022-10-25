@@ -533,7 +533,7 @@ h1, h2 {
 
 /** CSS for contact page **/
 
-.contact-main {
+.contact-section {
         
         position: relative;
         width: 100%;
@@ -553,13 +553,14 @@ h1, h2 {
         flex-direction: column;
         gap: 40px;
         justify-content: space-evenly;
-        align-items: flex-start;
+        
         width: 80%;
 }
 
 
 
 .contact-info, .contact-form, .contact-heading {
+        gap: 40px;
         width: 100%;
         align-self: center;
         background-color: rgba(50, 50, 50, .8);
