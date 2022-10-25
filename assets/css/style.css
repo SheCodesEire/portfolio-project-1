@@ -737,6 +737,18 @@ h1, h2 {
                 text-decoration: none;
         }
 
+        .contact-content-container {
+                width: 90%;
+        }
+
+        .contact-form-inner input {
+                width: 60%;
+        }
+
+        .contact-form-inner textarea {
+                width: 70%;
+        }
+
 
 }
         
