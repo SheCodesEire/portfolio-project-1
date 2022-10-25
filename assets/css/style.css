@@ -557,6 +557,12 @@ h1, h2 {
         background-color: rgba(50, 50, 50, .8);
 }
 
+.contact-heading h1 {
+        font-size: 250%;
+        text-align: center;
+        color: #f9f6f0;
+
+}
 
 
 
