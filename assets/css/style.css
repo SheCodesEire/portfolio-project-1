@@ -650,8 +650,8 @@ h1, h2 {
 
 }
 
-.contact-form-inner {
-        width: 50%;
+.contact-form-inner h3 {
+        padding-bottom: 0px;
 }
 
 
