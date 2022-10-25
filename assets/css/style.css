@@ -213,6 +213,13 @@ h1, h2 {
         cursor: pointer;
 }
 
+.outter-container:focus-within > .flip-card {
+        transform: rotateY(180deg);
+        cursor: pointer;
+}
+
+
+
 .flip-card {
         height: 100%;
         width:100%;
