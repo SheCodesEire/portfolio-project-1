@@ -650,7 +650,9 @@ h1, h2 {
 
 }
 
-
+.contact-form-inner {
+        width: 50%;
+}
 
 
 /* Media Queries */ 
