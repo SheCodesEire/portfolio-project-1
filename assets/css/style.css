@@ -1,43 +1,47 @@
-@import  url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+Pro:wght@300&display=swap');
 
-* { margin: 0;
-    padding: 0; 
-     border: none;
-    }
+* {
+        margin: 0;
+        padding: 0;
+        border: none;
+}
 
-header { padding-bottom: 20px;
+header {
+        padding-bottom: 20px;
         display: flex;
-        flex-wrap: wrap;}
+        flex-wrap: wrap;
+}
 
-header a {flex: 50%;}
+header a {
+        flex: 50%;
+}
 
-body { font-family: Source sans pro, serif;
-       font-weight:400;
-       color: rgb(64, 64, 64);
-        }
+body {
+        font-family: Source sans pro, serif;
+        font-weight: 400;
+        color: rgb(64, 64, 64);
+}
 
-h1, h2 { 
-         font-family: Playfair Display, sans-serif;
-         font-weight: 400;
-         color: rgb(64, 64, 64);
-        }
+h1,
+h2 {
+        font-family: Playfair Display, sans-serif;
+        font-weight: 400;
+        color: rgb(64, 64, 64);
+}
 
-
-#logo { font-size: 250%;
-        float: left; 
+#logo {
+        font-size: 250%;
+        float: left;
         margin-left: 20px;
         padding-top: 40px;
-         }
-
-
+}
 
 #nav-menu {
-       font-size: 120%;
-       letter-spacing: 2px; 
-       display: flex; 
-       justify-content: flex-end; 
-       padding-top: 40px;
-       
+        font-size: 120%;
+        letter-spacing: 2px;
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 40px;
 }
 
 #nav-menu a:hover {
@@ -47,64 +51,61 @@ h1, h2 {
         padding: 5px;
 }
 
-
-
 #nav-menu li {
-        flex-direction: row; 
+        flex-direction: row;
         list-style-type: none;
         margin-right: 30px;
         padding-top: 20px;
-        }
+}
 
 #nav-menu a {
         text-decoration: none;
-        color: rgb(64, 64, 64); }
-        
+        color: rgb(64, 64, 64);
+}
 
-          /** Hero image cover text**/
+/** Hero image cover text**/
 
 .hero-section {
         position: relative;
         display: flex;
-        justify-content: center; 
+        justify-content: center;
         height: 600px;
         width: 100%;
         overflow: hidden;
-        
 }
 
 #hero-image {
         height: 600px;
         width: 100%;
         background: url('../images/hero-image-min.jpg') no-repeat center center;
-        background-size: cover; 
-        
+        background-size: cover;
+
         animation-name: hero-zoom;
         animation-duration: 4s;
         animation-fill-mode: forwards;
 }
-      
-@keyframes hero-zoom {
-        from { transform: scale(1);}
-        to {transform: scale(1.1);}
-    }
 
-.cover-text{ 
+@keyframes hero-zoom {
+        from {
+                transform: scale(1);
+        }
+
+        to {
+                transform: scale(1.1);
+        }
+}
+
+.cover-text {
         color: rgb(64, 64, 64);
         width: auto;
         height: auto;
 
         padding: 40px;
-        
-        position: absolute; 
-        background-color: rgba(255,204,153, .7);
+
+        position: absolute;
+        background-color: rgba(255, 204, 153, .7);
 
         align-self: center;
-        
-
-        /** Alternate for positioning without flex:  bottom: 50px;
-        left: 100px; **/
-
 }
 
 .cover-text h2 {
@@ -131,16 +132,15 @@ h1, h2 {
         /** padding-top: 40px;
         padding-bottom: 40px; **/
         text-align: center;
-        
+
         border: 1px solid;
-        border-color:rgb(64, 64, 64);
-        border-radius: 30px; 
-        
+        border-color: rgb(64, 64, 64);
+        border-radius: 30px;
 }
 
 #welcome-text h1 {
         font-size: 400%;
-        padding-bottom:40px;
+        padding-bottom: 40px;
 }
 
 #welcome-text h3 {
@@ -162,23 +162,16 @@ h1, h2 {
         padding: 10px 20px 10px 20px;
 }
 
-
-
-
 .button-container {
         margin-bottom: 40px;
         text-align: center;
 }
 
-
 .button-container a:hover {
-        background-color:#728c69;
-        background-image:none;
+        background-color: #728c69;
+        background-image: none;
         padding: 12px 22px 12px 22px;
-        
 }
-
-
 
 #flip-card-section {
         background-color: #daeff0;
@@ -186,21 +179,20 @@ h1, h2 {
         padding-bottom: 100px;
         padding-left: 10%;
         padding-right: 10%;
-        text-align:center;
-        box-sizing:border-box; }
+        text-align: center;
+        box-sizing: border-box;
+}
 
 #flip-card-section h1 {
         font-size: 400%;
         padding-bottom: 100px;
 }
 
-
 .flip-cards-flexcontainer {
-        
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items:center;
+        align-items: center;
 }
 
 .outter-container {
@@ -208,27 +200,26 @@ h1, h2 {
         height: 500px;
 }
 
-.outter-container:hover > .flip-card {
+.outter-container:hover>.flip-card {
         transform: rotateY(180deg);
         cursor: pointer;
 }
 
-.outter-container:focus-within > .flip-card {
+.outter-container:focus-within>.flip-card {
         transform: rotateY(180deg);
         cursor: pointer;
 }
-
-
 
 .flip-card {
         height: 100%;
-        width:100%;
+        width: 100%;
         position: relative;
         transition: transform .8s;
         transform-style: preserve-3d;
 }
 
-.front, .back {
+.front,
+.back {
         height: 100%;
         width: 100%;
         border-radius: 20px;
@@ -239,12 +230,12 @@ h1, h2 {
 }
 
 #card-one-front {
-       background-image: url(/assets/images/flip-card-A-min.jpg);
-       width: 100%;
-       height: 100%;
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: 50%;
+        background-image: url(/assets/images/flip-card-A-min.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
 }
 
 #card-two-front {
@@ -253,7 +244,8 @@ h1, h2 {
         height: 100%;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: 50%; }
+        background-position: 50%;
+}
 
 .back {
         background-color: #ffdde1;
@@ -270,8 +262,6 @@ h1, h2 {
         font-size: 120%;
         padding-left: 20px;
         padding-right: 20px;
-
-
 }
 
 .back a {
@@ -281,8 +271,7 @@ h1, h2 {
 }
 
 .back a:hover {
-        
-        text-decoration:underline;
+        text-decoration: underline;
 }
 
 #reviews-section {
@@ -290,10 +279,11 @@ h1, h2 {
         padding-top: 100px;
         padding-bottom: 60px;
         padding-left: 10%;
-        padding-right: 10%; }
+        padding-right: 10%;
+}
 
 #reviews-container {
-        display:flex;
+        display: flex;
         flex-direction: row;
         align-items: stretch;
         justify-content: space-evenly;
@@ -301,9 +291,9 @@ h1, h2 {
 }
 
 .review {
-        padding-left:40px;
+        padding-left: 40px;
         padding-bottom: 40px;
-        padding-right:40px;
+        padding-right: 40px;
 }
 
 .review p {
@@ -311,8 +301,6 @@ h1, h2 {
         font-size: 120%;
         padding-top: 20px;
         font-weight: 400;
-
-        
 }
 
 #footer {
@@ -321,22 +309,20 @@ h1, h2 {
         padding-bottom: 20px;
         padding-left: 40px;
         padding-right: 40px;
-        
-
 }
 
 #section-break {
         border: solid antiquewhite 4px;
         width: 100%;
         margin: 0 auto;
-        
+
 }
 
 #footer-main {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        
+
 }
 
 #footer a {
@@ -345,7 +331,7 @@ h1, h2 {
 }
 
 #footer a:hover {
-        font-size:150%;
+        font-size: 150%;
         color: #728c69;
 }
 
@@ -354,19 +340,19 @@ h1, h2 {
 }
 
 #footer-contact a {
-        display:flex;
+        display: flex;
         justify-content: center;
         align-items: center;
         padding-top: 20px;
         font-size: 120%;
-        
-        
+
+
 }
 
 #map-email-links {
         display: flex;
         justify-content: center;
-        align-items: center; 
+        align-items: center;
         gap: 20%;
         padding-top: 10px;
         font-size: 100%;
@@ -377,8 +363,8 @@ h1, h2 {
         justify-content: center;
         align-items: center;
         padding-top: 40px;
-        
-        
+
+
 }
 
 #social-links li {
@@ -396,18 +382,19 @@ h1, h2 {
         justify-content: center;
         position: relative;
 }
+
 #menu-img {
         height: 300px;
         width: 100%;
         background: url('../images/mountain-grass-min.jpg') no-repeat center center;
-        background-size: cover;  
+        background-size: cover;
 }
 
 #menu-hero-text {
         position: absolute;
         align-self: center;
         font-size: 300%;
-        
+
 }
 
 #menu-hero-text h2 {
@@ -432,7 +419,7 @@ h1, h2 {
 }
 
 .menu-panels {
-        
+
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
@@ -440,12 +427,12 @@ h1, h2 {
 }
 
 .menu-box {
-        
+
         width: 25%;
-        background-color:#ddead1;
+        background-color: #ddead1;
         border-radius: 30px;
         box-shadow: 0 0 5px 3px rgba(50, 50, 50, .25);
-        align-self:flex-start;
+        align-self: flex-start;
 }
 
 .menu-box-text {
@@ -454,28 +441,29 @@ h1, h2 {
 }
 
 #note {
-        
+
         font-size: 80%;
         font-weight: 600;
         font-style: italic;
 
 }
+
 .menu-box-text h2 {
         padding-top: 2%;
         font-weight: 600;
-        font-size: 150% ;
+        font-size: 150%;
         text-align: left;
 }
 
 .menu-box-text hr {
-        height:2px;
-        
+        height: 2px;
+
         border: solid #141e30;
-        border-bottom:0 ;
+        border-bottom: 0;
         border-left: 0;
         border-right: 0;
         padding-bottom: 10px;
-        
+
 }
 
 .list-item {
@@ -490,12 +478,13 @@ h1, h2 {
 }
 
 .title {
-        
+
         display: inline;
         text-align: left;
 }
+
 .price {
-        
+
         display: inline;
         text-align: right;
         float: right;
@@ -518,7 +507,7 @@ h1, h2 {
 
 .link-section {
         background-color: rgb(252, 245, 232);
-        
+
         padding-bottom: 80px;
         padding-left: 40px;
         padding-right: 40px;
@@ -533,15 +522,14 @@ h1, h2 {
 }
 
 .link-section a:hover {
-        font-size:110%;
+        font-size: 110%;
         color: #728c69;
 }
-
 
 /** CSS for contact page **/
 
 .contact-section {
-        
+
         position: relative;
         width: 100%;
         background: url('../images/cliffs-ocean-min.jpg') no-repeat center center;
@@ -554,13 +542,12 @@ h1, h2 {
 
 }
 
-
 .contact-content-container {
         display: flex;
         flex-direction: column;
         gap: 40px;
         justify-content: space-evenly;
-        
+
         width: 80%;
 }
 
@@ -569,33 +556,36 @@ h1, h2 {
         flex-direction: row;
         width: 100%;
         justify-content: center;
-        
+
         gap: 40px;
 }
 
-.contact-info, .contact-form {
-        
-        background-color:  rgba(50, 50, 50, .8);
+.contact-info,
+.contact-form {
+
+        background-color: rgba(50, 50, 50, .8);
         height: auto;
         color: #f9f6f0;
-        padding:  60px 20px;
+        padding: 60px 20px;
         letter-spacing: 1px;
 }
 
-.contact-info h2, .contact-form h2 {
+.contact-info h2,
+.contact-form h2 {
         color: #f9f6f0;
         padding-bottom: 20px;
         padding-top: 20px;
 }
 
-.contact-info h3, .contact-form h3 {
+.contact-info h3,
+.contact-form h3 {
         color: #f9f6f0;
-        padding-bottom:20px;
+        padding-bottom: 20px;
 }
 
 .contact-main h1 {
         color: #f9f6f0;
-        
+
 }
 
 .contact-main hr {
@@ -613,16 +603,15 @@ h1, h2 {
         padding-bottom: 20px;
         text-align: center;
 }
+
 .contact-info {
         width: 30%;
-        
+
 }
 
 .contact-form {
         width: 60%;
 }
-
-
 
 .contact-map {
         padding-top: 50px;
@@ -632,16 +621,16 @@ h1, h2 {
 }
 
 .mapouter {
-        position:relative;
-        text-align:center;
-        height:500px;
-        }
+        position: relative;
+        text-align: center;
+        height: 500px;
+}
 
 .gmap_canvas {
-        overflow:hidden;
-        background:none!important;
-        
-        
+        overflow: hidden;
+        background: none !important;
+
+
 }
 
 #gmap_canvas {
@@ -665,12 +654,10 @@ h1, h2 {
         width: 60%;
         border-radius: 8px;
         font-family: Source sans pro, serif;
-       font-weight:400;
-       color: rgb(64, 64, 64);
-       font-size: 120%;
+        font-weight: 400;
+        color: rgb(64, 64, 64);
+        font-size: 120%;
 }
-
-
 
 #submit {
         margin-top: 40px;
@@ -681,10 +668,9 @@ h1, h2 {
         color: rgb(64, 64, 64);
         font-size: 120%;
         cursor: pointer;
-        
 }
 
-/* Media Queries */ 
+/* Media Queries */
 
 @media screen and (max-width: 1300px) {
 
@@ -692,7 +678,8 @@ h1, h2 {
                 width: 30%;
         }
 
-        .title, .price {
+        .title,
+        .price {
                 font-size: 85%;
                 text-decoration: underline;
         }
@@ -702,28 +689,27 @@ h1, h2 {
         }
 }
 
-
-
-
-
 @media screen and (max-width: 992px) {
         #nav-menu {
-                
-              /**  clear: left;
+
+                /**  clear: left;
                 float: left; **/
                 margin-left: 1.25rem;
                 line-height: 1rem;
-                padding-top: 40px; }
-        
+                padding-top: 40px;
+        }
+
         #welcome-section {
-                height:auto;
+                height: auto;
         }
 
         #flip-card-section h1 {
-                font-size: 300%; }
+                font-size: 300%;
+        }
 
         .flip-cards-flexcontainer {
-                flex-direction: column; }
+                flex-direction: column;
+        }
 
         #fc-media-query {
                 padding-bottom: 40px;
@@ -739,7 +725,8 @@ h1, h2 {
                 width: 90%;
         }
 
-        .title, .price {
+        .title,
+        .price {
                 font-size: 1.17em;
                 text-decoration: none;
         }
@@ -755,52 +742,43 @@ h1, h2 {
         .contact-form-inner textarea {
                 width: 70%;
         }
-
-
 }
-        
 
-        
-        @media screen and (max-width: 768px) {
-                .cover-text h2 {
-                        font-size: 150%;
-                        padding-bottom: 60px; }
-                
-                .cover-text h3 {
-                        font-size: 100%; }
-                
-                /** #nav-menu {
-                        padding-top: 0px;
-                } **/
-
-                #reviews-container {
-                        flex-direction: column;
-                }
-
-                #menu-hero-text {
-                        font-size: 200%;
-                }
-
-                #logo {
-                        font-size: 200%;
-                }
-
-                .contact-main {
-                        flex-direction: column-reverse;
-                
-                }
-
-                .contact-info, .contact-form {
-                        width: 90%;
-                }
-
-
-        
+@media screen and (max-width: 768px) {
+        .cover-text h2 {
+                font-size: 150%;
+                padding-bottom: 60px;
         }
 
-        @media screen and (max-width: 600px) {
-        
-            
+        .cover-text h3 {
+                font-size: 100%;
+        }
+
+        #reviews-container {
+                flex-direction: column;
+        }
+
+        #menu-hero-text {
+                font-size: 200%;
+        }
+
+        #logo {
+                font-size: 200%;
+        }
+
+        .contact-main {
+                flex-direction: column-reverse;
+
+        }
+
+        .contact-info,
+        .contact-form {
+                width: 90%;
+        }
+}
+
+@media screen and (max-width: 600px) {
+
         #welcome-text h1 {
                 font-size: 200%;
         }
@@ -815,22 +793,23 @@ h1, h2 {
 
         .outter-container {
                 width: 300px;
-                height: 400px;}
+                height: 400px;
+        }
 
-         .back h2 {
+        .back h2 {
                 font-size: 100%;
                 padding: 20px;
                 letter-spacing: 1px;
-                }
-                
-                .back p {
+        }
+
+        .back p {
                 font-size: 100%;
                 padding-left: 10px;
                 padding-right: 10px;
                 padding-bottom: 10px;
 
         }
-        
+
         #footer-main {
                 justify-content: space-between;
                 flex-flow: wrap;
@@ -850,12 +829,10 @@ h1, h2 {
         }
 }
 
-
-
-
 @media screen and (max-width: 480px) {
 
-        .title, .price {
+        .title,
+        .price {
                 font-size: 85%;
                 text-decoration: underline;
         }
@@ -872,10 +849,5 @@ h1, h2 {
                 padding-left: 10px;
                 padding-right: 0;
         }
-
-
-
-
-
 
 }
