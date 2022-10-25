@@ -783,6 +783,10 @@ h1, h2 {
                 
                 }
 
+                .contact-info, .contact-form {
+                        width: 90%;
+                }
+
 
         
         }
