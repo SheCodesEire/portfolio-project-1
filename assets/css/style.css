@@ -586,6 +586,17 @@ h1, h2 {
         padding-bottom:20px;
 }
 
+.contact-info h1 {
+        color: #f9f6f0;
+        
+}
+
+.contact-main hr {
+        width: 90%;
+        border: solid 1px #f9f6f0;
+        margin: 2px;
+}
+
 #address h3 {
         padding-bottom: 0;
 }
