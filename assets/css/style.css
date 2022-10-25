@@ -559,7 +559,7 @@ h1, h2 {
 
 
 
-.contact-info, .contact-form, .contact-heading {
+.contact-info, .contact-form  {
         gap: 40px;
         width: 100%;
         align-self: center;
