@@ -651,9 +651,15 @@ h1, h2 {
 }
 
 .contact-form-inner h3 {
-        padding-bottom: 0px;
+        padding-bottom: 6px;
+        padding-top: 10px;
 }
 
+.contact-form-inner input {
+        height: 1.3rem;
+        width: 30%;
+        border-radius: 5px;
+}
 
 /* Media Queries */ 
 
