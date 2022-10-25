@@ -664,6 +664,16 @@ h1, h2 {
 .contact-form-inner textarea {
         width: 50%;
         border-radius: 8px;
+        font-family: Source sans pro, serif;
+       font-weight:400;
+       color: rgb(64, 64, 64);
+}
+
+textarea  {
+       font-family: Source sans pro, serif;
+       font-weight:400;
+       color: rgb(64, 64, 64);
+       font-size: 120%;
 }
 
 /* Media Queries */ 
