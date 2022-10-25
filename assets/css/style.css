@@ -600,6 +600,12 @@ h1, h2 {
 #address h3 {
         padding-bottom: 0;
 }
+
+#form-note {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+}
 .contact-info {
         width: 30%;
         
