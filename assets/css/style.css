@@ -569,7 +569,7 @@ h1, h2 {
 .contact-info, .contact-form {
         
         background-color:  rgba(50, 50, 50, .8);
-        height: 800px;
+        height: auto;
         color: #f9f6f0;
         padding:  60px 20px;
         letter-spacing: 1px;
@@ -578,13 +578,17 @@ h1, h2 {
 .contact-info h2, .contact-form h2 {
         color: #f9f6f0;
         padding-bottom: 20px;
+        padding-top: 20px;
 }
 
 .contact-info h3, .contact-form h3 {
         color: #f9f6f0;
-        padding-bottom:40px;
+        padding-bottom:20px;
 }
 
+#address h3 {
+        padding-bottom: 0;
+}
 .contact-info {
         width: 30%;
         
