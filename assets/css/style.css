@@ -670,17 +670,16 @@ h1, h2 {
        font-size: 120%;
 }
 
-/** textarea  {
-       font-family: Source sans pro, serif;
-       font-weight:400;
-       color: rgb(64, 64, 64);
-       font-size: 120%;
-} **/
+
 
 #submit {
         margin-top: 40px;
         height: 2rem;
         width: 6rem;
+        font-family: Source sans pro, serif;
+        font-weight: 600;
+        color: rgb(64, 64, 64);
+        font-size: 120%;
         
 }
 
