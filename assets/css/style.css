@@ -67,6 +67,9 @@ h1, h2 {
         position: relative;
         display: flex;
         justify-content: center; 
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
         
 }
 
@@ -76,10 +79,15 @@ h1, h2 {
         background: url('../images/hero-image-min.jpg') no-repeat center center;
         background-size: cover; 
         
-        
-        
+        animation-name: hero-zoom;
+        animation-duration: 4s;
+        animation-fill-mode: forwards;
 }
-
+      
+@keyframes hero-zoom {
+        from { transform: scale(1);}
+        to {transform: scale(1.1);}
+    }
 
 .cover-text{ 
         color: rgb(64, 64, 64);
@@ -550,12 +558,15 @@ h1, h2 {
 }
 
 
+
 .contact-info, .contact-form, .contact-heading {
-        
-        width: 90%;
+        width: 100%;
         align-self: center;
         background-color: rgba(50, 50, 50, .8);
 }
+
+
+
 
 .contact-heading h1 {
         font-size: 250%;
