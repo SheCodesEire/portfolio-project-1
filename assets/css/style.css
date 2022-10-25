@@ -568,16 +568,10 @@ h1, h2 {
 
 .contact-info, .contact-form {
         width: 40%;
-        background-color:  rgba(50, 50, 50, .8)
+        background-color:  rgba(50, 50, 50, .8);
+        height: 800px;
 }
 
-
-/** .contact-info, .contact-form  {
-        gap: 40px;
-        width: 100%;
-        align-self: center;
-        background-color: rgba(50, 50, 50, .8);
-} **/
 
 
 
