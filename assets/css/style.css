@@ -567,12 +567,18 @@ h1, h2 {
 }
 
 .contact-info, .contact-form {
-        width: 50%;
+        
         background-color:  rgba(50, 50, 50, .8);
         height: 800px;
 }
 
+.contact-info {
+        width: 30%;
+}
 
+.contact-form {
+        width: 60%;
+}
 
 
 
