@@ -571,11 +571,18 @@ h1, h2 {
         background-color:  rgba(50, 50, 50, .8);
         height: 800px;
         color: #f9f6f0;
-        padding: 20px;
+        padding:  60px 20px;
+        letter-spacing: 1px;
 }
 
 .contact-info h2, .contact-form h2 {
         color: #f9f6f0;
+        padding-bottom: 20px;
+}
+
+.contact-info h3, .contact-form h3 {
+        color: #f9f6f0;
+        padding-bottom:40px;
 }
 
 .contact-info {
