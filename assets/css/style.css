@@ -570,10 +570,17 @@ h1, h2 {
         
         background-color:  rgba(50, 50, 50, .8);
         height: 800px;
+        color: #f9f6f0;
+        padding: 20px;
+}
+
+.contact-info h2, .contact-form h2 {
+        color: #f9f6f0;
 }
 
 .contact-info {
         width: 30%;
+        
 }
 
 .contact-form {
