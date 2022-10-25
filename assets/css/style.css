@@ -777,6 +777,14 @@ h1, h2 {
                 #logo {
                         font-size: 200%;
                 }
+
+                .contact-main {
+                        flex-direction: column-reverse;
+                
+                }
+
+
+        
         }
 
         @media screen and (max-width: 600px) {
