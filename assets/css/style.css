@@ -557,14 +557,27 @@ h1, h2 {
         width: 80%;
 }
 
+.contact-main {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        
+        gap: 40px;
+}
+
+.contact-info, .contact-form {
+        width: 40%;
+        background-color:  rgba(50, 50, 50, .8)
+}
 
 
-.contact-info, .contact-form  {
+/** .contact-info, .contact-form  {
         gap: 40px;
         width: 100%;
         align-self: center;
         background-color: rgba(50, 50, 50, .8);
-}
+} **/
 
 
 
