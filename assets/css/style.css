@@ -567,7 +567,7 @@ h1, h2 {
 }
 
 .contact-info, .contact-form {
-        width: 40%;
+        width: 50%;
         background-color:  rgba(50, 50, 50, .8);
         height: 800px;
 }
@@ -581,6 +581,13 @@ h1, h2 {
         text-align: center;
         color: #f9f6f0;
 
+}
+
+.contact-map {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        justify-content: center;
+        width: 100%;
 }
 
 
