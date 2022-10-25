@@ -592,15 +592,16 @@ h1, h2 {
 
 .mapouter {
         position:relative;
-        text-align:right;
+        text-align:center;
         height:500px;
-        width:600px;}
+        width:80%;}
 
 .gmap_canvas {
         overflow:hidden;
         background:none!important;
         height:500px;
-        width:600px;}
+        
+}
 
 
 
