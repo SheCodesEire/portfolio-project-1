@@ -783,7 +783,7 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
-        #welcome-text h1 {
+        #welcome-text h2 {
                 font-size: 200%;
         }
 
