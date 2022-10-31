@@ -639,9 +639,13 @@ h2 {
 
 }
 
-.contact-form-inner h3 {
+.contact-form-inner label {
         padding-bottom: 6px;
         padding-top: 10px;
+        display: block;
+        font-weight: bold;
+        font-size: 1.17em;
+        font-family: Source sans pro, serif;
 }
 
 .contact-form-inner input {
