@@ -560,6 +560,7 @@ h2 {
         gap: 40px;
 }
 
+
 .contact-info,
 .contact-form {
 
@@ -586,6 +587,11 @@ h2 {
 .contact-main h1 {
         color: #f9f6f0;
 
+}
+
+.contact-info .contact-heading h2 {
+        padding-top: 0;
+        padding-bottom: 0;
 }
 
 .contact-main hr {
