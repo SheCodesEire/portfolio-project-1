@@ -589,7 +589,12 @@ h2 {
 
 }
 
-.contact-info .contact-heading h2 {
+#contact-info-heading {
+        padding-top: 0;
+        padding-bottom: 0;
+}
+
+#contact-form-heading {
         padding-top: 0;
         padding-bottom: 0;
 }
