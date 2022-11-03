@@ -232,20 +232,40 @@ This browser was tested for functionality on the following browsers with nil iss
 
 **Validation Testing**
 
-The W3C Markup Validation tool was used to test the html code for the home, menu and contact pages.  Some errors were noted initially and minor changes were made to the code, including the following;
+The W3C Markup Validation Service was used to test the html code for the home, menu and contact pages.  Some errors were noted initially and minor changes were made to the code, including the following;
 
 - Several h1 elements were changed to h2 elements to ensure that only on h1 element existed per page. 
 - Two id selectors responsible for styling the front of the landing page flip cards were switched to class selectors. This ensured that no duplicate ids existed within the code. Additional styling was then added to the front of each flip card using two separate unique id selectors.
 - Two duplicate id selectors responsible for styling the button links on the landing page were switched to class selectors. 
 
 
-Following these changes, the validator reported nil errors for all html code. 
- 
-The CSS code was tested using the W3C Jigsaw Validation tool. No errors were noted. 
+Following these changes, nil errors reported were reported for all html code. 
+
+The CSS code was tested using the W3C Jigsaw Validation Service. Nil errors were noted. 
+
+**Performance Testing** 
+The Lighthouse performance tool was used to test all pages and the results are as follows;
+
+**Home Page:** 
+
+<img src="assets/images/home-lighthouse.png">
+
+**Menu Page:**
+
+<img src="assets/images/menu-lighthouse.png">
+
+**Contact Page:**
+
+<img src="assets/images/contact-lighthouse.png">
+
+
+Of note, performance scores were reduced due to large network payloads. Images, font and icon downloads contributed to this. All images were compressed to improve loading times. The performance score could be improved upon in the future by reducing network payloads and serving images in more modern formats such as WebP and AVIF. 
 
 **Manual Testing**
 
+
 **User Experience**
+
 
 **Deployment**
 
