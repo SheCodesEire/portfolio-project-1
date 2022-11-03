@@ -35,7 +35,7 @@ C)	Outdoor Adventurers.
 
 User Story: Richard is a surfing enthusiast. He requires a business where he can enjoy a hot drink and sweet treat after a long and exhausting morning battling the Atlantic swell. He is very health conscious and cares about the environment and sustainability. 
 
-### Website Objectives
+### Website Objectives 
 
 Business Owner Goals:
 
@@ -73,26 +73,52 @@ User Expectations:
 - Good accessibility. 
 
 
+## Features 
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Existing Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+The following features are evident across all three site pages: 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+**Logo:**
+The logo comprises of a simple icon located to the left of the business name. It is responsive and will reduce in size on smaller screens. It also serves as a link to the landing page. 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Navigation Bar:**
+The navigation bar provides links to the home, menu and contact pages. It is styled in a clean and minimalistic manner and allows users to intuitively navigate between site pages. This feature is fully responsive and will float the left on smaller screens. 
+**Footer:**
+The footer provides several key features; 
+- Address: Note that the “Address” heading serves as a link to the business’s location on google maps. This link opens in a new tab to avoid customers leaving the site without a means of returning. 
+- Opening Hours: This allows customers to quickly and easily identify opening and closing hours for the business. 
+A phone number for the business. 
+- Email and Location icons: These icons change size and colour when hovered over. The email icon serves as a link to the contact page allowing users to easily navigate the website and contact the business directly. The location icon opens the google maps location of the business in a new tab.
+- Social Media icons: Four social media icons open key social media websites in a new tab. These icons also change colour and size when hovered over. 
+All icons contain aria labels to maintain accessibility. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+#### Landing Page Features: 
+**Hero Image and Cover Text:** The hero image displays an image of a Volkswagen Van, providing immediate context for the site user. The text overlay includes a catchy slogan to add to the professionalism of the site and helps the site user to better understand the company’s brand. The hero image includes a zoom effect to add visual appeal. 
+**Information Section:**
+This section was designed for skim reading and allows the user to quickly learn about the business’s purpose, mission and value for customers. This section contains a link to the menu page. This link is styled as a button and changes colour when hovered over. 
+**Flip Cards:**
+Two eye-catching flip cards encourage the user to interact with the site and provide key information regarding the company’s commitment to sustainability and community service. These cards are fully responsive and will re-position from a row to column layout on smaller screens. 
+**Reviews:**
+This section allows the user to learn more about previous customer’s experiences with the business. A second link styled as a button allows the user to intuitively navigate to the menu page. 
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+#### Menu Page Features: 
+**Menu Panels:** 
+Three clean and concise panels provide information on the business’s set menu and pricing. The menu items are organised with information hierarchy in mind; breakfast items are presented first, followed by lunch items and finally drinks and snacks. Each menu item has a creative name to add interest for the user. These panels are responsive and will re-arrange to a column format on smaller screens. There is a strong contrast between the text and background colour to enable easy reading for visually impaired site users. 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+**Contact Page Link:** A call to action is included below the menu panels, allowing the user to easily navigate to the contact page. This link changes in size and colour when hovered over. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+#### Contact Page Features: 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Background Image:** This page contains a background image that remains in place as the user scrolls through the page to add visual appeal. The image reflects the business’s brand as an establishment that values the environment and is situated along the Wild Atlantic Way. 
+**Contact Form:** The contact form enables the user to contact the business directly. Users are required to fill out all four sections before the form can be submitted successfully. For computers and laptops, the arrow changes to a pointer when the “send” button is hovered over. 
+**Map:** A large google map of the business’s location is included at the bottom of the contact page. Users can zoom in and out of the map and drag the map to move it around on the screen. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Features Not Yet Implemented
+
+**About Us:** The website could benefit from an additional page providing information on the business owners and their reasons for setting up the business. There is also an opportunity to provide more information on local suppliers and the benefits of acquiring ingredients locally. 
+**Online Orders:** There is scope for an online ordering feature that would allow customers to place their order online prior to their visit to reduce waiting times.
+
 
 **September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
