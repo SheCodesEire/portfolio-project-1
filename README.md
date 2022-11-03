@@ -327,7 +327,7 @@ Please find a review of each user goal below and a summary of how the website me
     - Comprehensive menu listed on menu page. 
     - Links to menu in navigation bar and on home page allow for intuitive navigation to desired information. 
 
-**User Expectations Testing ** 
+**User Expectations Testing** 
 
 1. "A responsive site that can be viewed across screen sizes."
     - Site is fully responsive and can be viewed across all screen sizes.
@@ -387,9 +387,27 @@ There are currently no known bugs left unfixed within the website.
 
 ## Credits
 
+**Media and Design**
 1. All images were obtained from [Unsplash](https://unsplash.com/): 
 - The image of the Cliffs of Moher was taken by Henrique Craveiro. Link to his Unsplash profile [here.](https://unsplash.com/@hocraveiro)
 - The VW van hero image was taken by Caleb George. Link to his Unsplash profile [here](https://unsplash.com/@seemoris)
 - The flip card food images were taken by Ella Olsson (flip card one) and Sarah Dubler (flip card two). Links to their Unsplash profiles [here](https://unsplash.com/@ellaolsson) and [here.](https://unsplash.com/@ahungryblonde_)
 - The image of grass and mountains on the menu page was taken by Ales Krivek. Link to his Unsplash profile [here.](https://unsplash.com/@aleskrivec)
+
+2. All icons were taken from [font awesome.](https://fontawesome.com/)
+
+3. The website's font-pairing was inspired by the following [blog post](https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120) written by Ruth Hamilton. 
+
+
+**Code**
+
+1. The zoom effect added to the hero image on the home page was created with support from the Code Institute Tutorial, as part of the "Love Running" walkthrough project. 
+
+2. The development of the flip-cards on the home page was guided by the following W3Schools [tutorial](https://www.w3schools.com/howto/howto_css_flip_card.asp) and a Youtube tutorial called "Easy Flip Card Tutorial" on the "Coding with Russ" page. You can find a link to the tutorial [here.](https://www.youtube.com/watch?v=NCLdf661ILE)
+
+3. The interactive google map on the contact page was created using Web Mockup Generator [link here.](https://websitemockupgenerator.com/)
+
+4. The use of CSS flexbox was guided by the W3Schools documentation and [tutorials](https://www.w3schools.com/css/css3_flexbox.asp). 
+
+
 
