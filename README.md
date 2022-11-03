@@ -273,8 +273,94 @@ Please find a summary table of all manual testing completed below:
 
 <br>
 
-**User Experience**
+**User Goals Testing**
+Please find a review of each user goal below and a summary of how the website meets these requirements. 
 
+
+**New Customer Goals:**
+
+1. "Identify menu options and prices."
+    - Clear pricing information available on menu panels. 
+    - Strong colour contract between text and background colour on menu panels improves readability. 
+    - Home page provides several links to menu page ensuring intuitive navigation to desired information. 
+    <br>
+    <br>
+
+2. "Understand the business’s ethos and values."
+    - Welcome section provides overview of business's value to customers. 
+    - Flip card section contains clear, concise overview of the business's ethos and values. 
+    - Design reflects the business's appreciation of nature and the enviornment. 
+     <br>
+     <br>
+
+3. "Locate the business."
+    - Footer section contains written address and several links to google maps location. 
+    - Large, interactive map available on contact page. 
+     <br>
+     <br>
+
+4. "Identify opening and closing hours." 
+    - Footer section clearly outlines this information on every page. 
+
+**Existing Customer Goals:**
+
+1. "Contact the business with questions or queries."
+    - "Contact" link in navigation bar allows for easy navigation to contact details. 
+    - Intutivie and concise contact form provided on contact page. 
+    - Phone number provided in footer. 
+    - Link to contact page provided in footer. 
+ <br>
+ <br>
+
+2. "Identify social media links."
+    - Easily recognisable social media icons listed in footer. 
+    - Each icon directs user to social media page in new tab. 
+ <br>
+ <br>
+
+3. "Review menu options and prices."
+    - Comprehensive menu listed on menu page. 
+    - Links to menu in navigation bar and on home page allow for intuitive navigation to desired information. 
+
+**User Expectations Testing ** 
+
+1. "A responsive site that can be viewed across screen sizes."
+    - Site is fully responsive and can be viewed across all screen sizes.
+     <br> 
+     <br>
+
+2. "Simple and intuitive navigation."
+    - Clean and concise navigation bar on all pages. 
+    - All links are styled with the same colour scheme enhancing intuitive navigation. 
+    - Multiple links to new pages available on each page.
+     <br>
+     <br> 
+
+3. "Links that open as expected."
+    - All links performed as expected on manual testing. 
+    <br>
+    <br>
+
+4. "A clean and professional layout."
+    - Consistent colour scheme throughout website. 
+    - Minimal text to allow for skim reading. 
+    - Information presented in hierarchial manner. 
+     <br>
+     <br>
+    
+5. "A design that matches the business’s values and brand."
+    - Consistent theme of earthiness/health within colour scheme/imagery selected. 
+     <br>
+     <br>
+
+6. "Good accessibility."
+    - All image tags include alt attributes.
+    - Aria-labels included for ambiguous links e.g. icon links to social media. 
+    - Title attribute included in iframe. 
+    - Strong contrast in text colour versus background colour to improve readability. 
+    - Responsive design allows site to be accessed across devices. 
+     <br>
+     <br>
 
 
 
