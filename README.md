@@ -37,7 +37,7 @@ User Story: Richard is a surfing enthusiast. He requires a business where he can
 
 ### Website Objectives 
 
-Business Owner Goals:
+**Business Owner Goals:**
 
 When developing the website, the business owner hopes to achieve the following;
 
@@ -48,7 +48,7 @@ When developing the website, the business owner hopes to achieve the following;
 - Build trust with customers by sharing positive reviews from previous clients. 
 - Connect with customers online and grow a customer base by sharing social media links. 
 
-New Customer Goals: 
+**New Customer Goals:**
 
 When using the website, new customers hope to achieve the following; 
 -	Identify menu options and prices. 
@@ -56,14 +56,14 @@ When using the website, new customers hope to achieve the following;
 -	Locate the business. 
 -	Identify opening and closing hours. 
 
-Existing Customer Goals:  
+**Existing Customer Goals:**
 
 When using the website, existing customers may hope to achieve the following; 
 - Contact the business with questions or queries. 
 - Identify social media links.
 - Review menu options and prices. 
 
-User Expectations: 
+**User Expectations:** 
 
 - A responsive site that can be viewed across screen sizes.
 - Simple and intuitive navigation.
@@ -83,7 +83,7 @@ The following features are evident across all three site pages:
 The logo comprises of a simple icon located to the left of the business name. It is responsive and will reduce in size on smaller screens. It also serves as a link to the landing page. 
 
 **Navigation Bar:**
-The navigation bar provides links to the home, menu and contact pages. It is styled in a clean and minimalistic manner and allows users to intuitively navigate between site pages. This feature is fully responsive and will float the left on smaller screens. 
+The navigation bar provides links to the home, menu and contact pages. It is styled in a clean and minimalistic manner and allows users to intuitively navigate between site pages. This feature is fully responsive and will float to the left on smaller screens. 
 
 <img src="assets/images/navbar.png" alt="screenshot of navbar">
 
@@ -91,10 +91,9 @@ The navigation bar provides links to the home, menu and contact pages. It is sty
 The footer provides several key features; 
 - Address: Note that the “Address” heading serves as a link to the business’s location on google maps. This link opens in a new tab to avoid customers leaving the site without a means of returning. 
 - Opening Hours: This allows customers to quickly and easily identify opening and closing hours for the business. 
-A phone number for the business. 
+- Phone Number: This allows customers to contact the business owners directly if required. 
 - Email and Location icons: These icons change size and colour when hovered over. The email icon serves as a link to the contact page allowing users to easily navigate the website and contact the business directly. The location icon opens the google maps location of the business in a new tab.
-- Social Media icons: Four social media icons open key social media websites in a new tab. These icons also change colour and size when hovered over. 
-All icons contain aria labels to maintain accessibility. 
+- Social Media icons: Four social media icons open key social media websites in a new tab. These icons also change colour and size when hovered over. All icons contain aria labels to maintain accessibility. 
 
 <img src="assets/images/footer.png" alt="screenshot of footer">
 
@@ -151,18 +150,25 @@ Wireframes:
 
 This site was designed using pen and paper sketches initially followed by wireframes created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiC_r2yCcRAPVgL-qLMz8Ii7YTAcwitZP7q-l_gcA9LcTbEchPfaQxoCLG8QAvD_BwE). Please find a selection of the completed wireframes below; 
 
-**Sample 1 : Landing Page (for small devices)**
+**Sample 1 : Landing Page (for mobile devices)**
 
 <img src="assets/images/mobile-wireframe.png" alt="screenshot of mobile design for landing page">
 
-**Sample 2 : Menu Page (for larger devices)**
+<br>
+<br>
+
+**Sample 2 : Menu Page (for desktop)**
 
 <img src="assets/images/menu-wireframe.png" alt="screenshot of desktop design for menu page">
 
-**Sample 3 : Contact Page (for larger devices)**
+<br>
+<br>
+
+**Sample 3 : Contact Page (for desktop)**
 
 <img src="assets/images/contact-wireframe.png" alt="screenshot of desktop design for contact page">
 
+<br>
 
 ### Typography: 
 
@@ -199,18 +205,19 @@ This website was developed using [HTML](https://en.wikipedia.org/wiki/HTML) and 
 **Responsiveness:** 
 This site was tested for responsiveness using chrome developer tools. Media queries were added for six breakpoints to cater for a wide range of screen sizes. Four breakpoints were selected using current best practice guidelines set out by [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). An additional two breakpoints were selected to solve a specific sizing issue relevant to the site in question. 
 
-Please find a summary of the main changes added at each breakpoint. 
-Max-width 1300px: This breakpoint was used to improve the layout and content of the menu panels for larger screens. 
+Please find a summary of the main changes added at each breakpoint below: 
 
-Max-width 992px: At this point, the menu panels and flip cards both switch to a column layout for easy reading on smaller screens. This breakpoint was also used to modify the layout and styling of the nav menu and contact form for smaller screens. 
+**Max-width 1300px:** This breakpoint was used to improve the layout and content of the menu panels for larger screens. 
 
-Max-width 768px: Both the reviews section and primary containers on the contact page switch to a column layout for improved readibility. Of note, at this screensize the contact form container displays first, followed by the contact information container to ensure that the most important information is displayed first for site user. The size of several headings and sections of text is reduced at this point to fit better on smaller screens. 
+**Max-width 992px:** At this breakpoint, the menu panels and flip cards both switch to a column layout for easy reading on smaller screens. This breakpoint was also used to modify the layout and styling of the nav menu and contact form for smaller screens. 
 
-Max-width 600px: Text size reduces and the footer container switches to a "wrap" layout. 
+**Max-width 768px:** Both the reviews section and primary containers on the contact page switch to a column layout for improved readibility. Of note, at this breakpoint the contact form container displays first, followed by the contact information container to ensure that the most important information is displayed first for site user. The size of several headings and sections of text is reduced to improve readibility on smaller screens. 
 
-Max-width 583px: This breakpoint was included to solve a bug within the navigation bar. Without this media query, there is an excess of padding above the navigation bar on small screens.  
+**Max-width 600px:** Text size reduces and the footer container switches to a "wrap" layout. 
 
-Max-width: 480px: Font size is reduced for text within the menu panels for mobile devices. The containers within the contact page are styled to fit more neatly on mobile screens. 
+**Max-width 583px:** This breakpoint was included to solve a bug within the navigation bar. Without this media query, there is an excess of padding above the navigation bar on small screens.  
+
+**Max-width: 480px:** Font size is reduced for text within the menu panels for mobile devices. The containers within the contact page are styled to fit more neatly on mobile screens. 
 
 
 During the testing phase, this site was successfully loaded on a several mobile devices, an i-pad, a small laptop and a large desktop screen.
@@ -224,6 +231,17 @@ This browser was tested for functionality on the following browsers with nil iss
 - Google Chrome 
 
 **Validation Testing**
+
+The W3C Markup Validation tool was used to test the html code for the home, menu and contact pages.  Some errors were noted initially and minor changes were made to the code, including the following;
+
+- Several h1 elements were changed to h2 elements to ensure that only on h1 element existed per page. 
+- Two id selectors responsible for styling the front of the landing page flip cards were switched to class selectors. This ensured that no duplicate ids existed within the code. Additional styling was then added to the front of each flip card using two separate unique id selectors.
+- Two duplicate id selectors responsible for styling the button links on the landing page were switched to class selectors. 
+
+
+Following these changes, the validator reported nil errors for all html code. 
+ 
+The CSS code was tested using the W3C Jigsaw Validation tool. No errors were noted. 
 
 **Manual Testing**
 
