@@ -223,3 +223,15 @@ This browser was tested for functionality on the following browsers with nil iss
 - Microsoft Edge
 - Google Chrome 
 
+**Validation Testing**
+
+**Manual Testing**
+
+**User Experience**
+
+**Deployment**
+
+**Bugs**
+
+**Credits**
+
