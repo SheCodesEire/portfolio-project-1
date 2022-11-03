@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Source+Sans+Pro:wght@300&display=swap');
 
+/**general css rules for all pages **/
+
 * {
         margin: 0;
         padding: 0;
@@ -28,6 +30,8 @@ h2 {
         font-weight: 400;
         color: rgb(64, 64, 64);
 }
+
+/** nav bar and logo **/
 
 #logo {
         font-size: 250%;
@@ -63,7 +67,9 @@ h2 {
         color: rgb(64, 64, 64);
 }
 
-/** Hero image cover text**/
+/** landing page **/
+
+/** hero image cover text**/
 
 .hero-section {
         position: relative;
@@ -119,6 +125,7 @@ h2 {
         text-align: center;
 }
 
+/** welcome section **/
 
 #welcome-section {
         background-color: rgb(252, 245, 232);
@@ -171,6 +178,8 @@ h2 {
         background-image: none;
         padding: 12px 22px 12px 22px;
 }
+
+/** flip-card section**/
 
 #flip-card-section {
         background-color: #daeff0;
@@ -273,6 +282,8 @@ h2 {
         text-decoration: underline;
 }
 
+/** reviews section**/
+
 #reviews-section {
         background-color: rgb(252, 245, 232);
         padding-top: 100px;
@@ -301,6 +312,8 @@ h2 {
         padding-top: 20px;
         font-weight: 400;
 }
+
+/** footer **/
 
 #footer {
         background-color: rgb(252, 245, 232);
@@ -373,8 +386,9 @@ h2 {
         padding-right: 1.5rem;
 }
 
-/**Menu Page CSS **/
+/** menu page **/
 
+/** hero image and cover text **/
 
 .menu-hero-section {
         display: flex;
@@ -400,6 +414,8 @@ h2 {
         color: #f9f6f0;
         padding-top: 150px;
 }
+
+/** main section **/
 
 .menu-main-section {
         background-color: rgb(252, 245, 232);
@@ -525,7 +541,9 @@ h2 {
         color: #728c69;
 }
 
-/** CSS for contact page **/
+/** contact page **/
+
+/** main section and flex containers **/
 
 .contact-section {
 
@@ -559,6 +577,7 @@ h2 {
         gap: 40px;
 }
 
+/** contact info/form containers **/
 
 .contact-info,
 .contact-form {
@@ -623,6 +642,8 @@ h2 {
         width: 60%;
 }
 
+/** map **/
+
 .contact-map {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -639,8 +660,6 @@ h2 {
 .gmap_canvas {
         overflow: hidden;
         background: none !important;
-
-
 }
 
 #gmap_canvas {
@@ -648,6 +667,8 @@ h2 {
         height: 600px;
 
 }
+
+/** additional contact form rules **/
 
 .contact-form-inner label {
         padding-bottom: 6px;
@@ -684,7 +705,7 @@ h2 {
         cursor: pointer;
 }
 
-/* Media Queries */
+/* media queries */
 
 @media screen and (max-width: 1300px) {
 
@@ -706,8 +727,6 @@ h2 {
 @media screen and (max-width: 992px) {
         #nav-menu {
 
-                /**  clear: left;
-                float: left; **/
                 margin-left: 1.25rem;
                 line-height: 1rem;
                 padding-top: 40px;
