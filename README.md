@@ -8,36 +8,71 @@
 The Vegan Van is a food truck that serves vegan dishes to local customers and tourists exploring the Wild Atlantic Way. The van is based in Dunfanaghy, Co. Donegal. This small business promotes the use of fresh, local produce and has a strong commitment to sustainability. The website offers new and returning customers three fresh and inviting pages to explore. Customers can learn more about the company’s mission and ethos, read previous reviews, review the menu, obtain directions and contact the company if required.  
 
 
+## Table of Contents
+* User Experience 
+* Features
+* Design
+* Technologies Used
+* Testing 
+* Deployment 
+* Credits
 
 
+## User Experience 
+
+### User Stories 
+This website is targeted at both new and returning customers and considered three key client groups. These groups represent the customers most likely to engage with the business and website. 
+
+A) Local community members. 
+
+User Story: Sarah is a busy mum of three living in Co. Donegal. She is proud of her local area and loves to support her community and engage in local initiatives. Sarah requires a business that is child friendly, serves as a meeting point for friends and provides healthy lunch options for her children.
+
+B)	Tourists exploring the Wild Atlantic Way.
+
+User Story: Jonah is a retired policeman touring Donegal in a campervan with his wife. Jonah requires a business where he can sit down outdoors and enjoy a coffee with a view. He seeks to immerse himself in his environment and meet the locals. 
+
+C)	Outdoor Adventurers.
+
+User Story: Richard is a surfing enthusiast. He requires a business where he can enjoy a hot drink and sweet treat after a long and exhausting morning battling the Atlantic swell. He is very health conscious and cares about the environment and sustainability. 
+
+### Website Objectives
+
+Business Owner Goals:
+
+When developing the website, the business owner hopes to achieve the following;
+
+- Clearly outline the company’s mission and ethos to potential and existing customers. 
+- Provide contact details for customers to submit questions/queries/feedback. 
+- Outline clear directions to ensure all customers can locate the business. 
+- Exhibit menu options in a concise and inviting manner. 
+- Build trust with customers by sharing positive reviews from previous clients. 
+- Connect with customers online and grow a customer base by sharing social media links. 
+
+New Customer Goals: 
+
+When using the website, new customers hope to achieve the following; 
+-	Identify menu options and prices. 
+-	Understand the business’s ethos and values. 
+-	Locate the business. 
+-	Identify opening and closing hours. 
+
+Existing Customer Goals:  
+
+When using the website, existing customers may hope to achieve the following; 
+- Contact the business with questions or queries. 
+- Identify social media links.
+- Review menu options and prices. 
+
+User Expectations: 
+
+- A responsive site that can be viewed across screen sizes.
+- Simple and intuitive navigation.
+- Links that open as expected. 
+- A clean and professional layout. 
+- A design that matches the business’s values and brand. 
+- Good accessibility. 
 
 
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
 
 We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
