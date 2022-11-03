@@ -21,8 +21,17 @@ The Vegan Van is a food truck that serves vegan dishes to local customers and to
     - [Existing Features](#existing-features)
     - [Features Not Yet Implemented](#features-not-yet-implemented)
 * [Design](#design)
+    - [Typography](#typography)
+    - [Imagery](#imagery)
+    - [Colour Scheme](#colour-scheme)
 * [Languages](#languages)
 * [Testing](#testing)
+    - [Responsiveness](#responsiveness)
+    - [Browser Testing](#browser-testing)
+    - [Performance Testing](#performance-testing)
+    - [Validation Testing](#validation-testing)
+    - [Manual Testing](#manual-testing)
+    - [User Goals Testing](#user-goals-testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
 
@@ -192,8 +201,6 @@ Three clean and concise panels provide information on the business’s set menu 
 
 ## Design
 
-Wireframes: 
-
 This site was designed using pen and paper sketches initially followed by wireframes created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiC_r2yCcRAPVgL-qLMz8Ii7YTAcwitZP7q-l_gcA9LcTbEchPfaQxoCLG8QAvD_BwE). Please find a selection of the completed wireframes below; 
 
 **Sample 1 : Landing Page (for mobile devices)**
@@ -247,11 +254,12 @@ This website was developed using [HTML](https://en.wikipedia.org/wiki/HTML) and 
 - [Website Mockup Generator](https://websitemockupgenerator.com/)
 - [Google Maps Generator](https://google-map-generator.com/)
 
+<br>
 
 ## Testing 
 
-**Responsiveness:** 
-This site was tested for responsiveness using chrome developer tools. Media queries were added for six breakpoints to cater for a wide range of screen sizes. Four breakpoints were selected using current best practice guidelines set out by [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). An additional two breakpoints were selected to solve a specific sizing issue relevant to the site in question. 
+ ### **Responsiveness:** 
+This site was tested for responsiveness using chrome developer tools. Media queries were added for six breakpoints to cater for a wide range of screen sizes. Four breakpoints were selected using current best practice guidelines set out by [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). An additional two breakpoints were selected to solve a specific responsiveness bugs relevant to the site in question. 
 
 Please find a summary of the main changes added at each breakpoint below: 
 
@@ -270,7 +278,10 @@ Please find a summary of the main changes added at each breakpoint below:
 
 During the testing phase, this site was successfully loaded on a several mobile devices, an i-pad, a small laptop and a large desktop screen.
 
-**Browser Testing**
+<br>
+<br>
+
+### **Browser Testing**
 
 This browser was tested for functionality on the following browsers with nil issues identified:
 - Mozilla Firefox
@@ -278,7 +289,10 @@ This browser was tested for functionality on the following browsers with nil iss
 - Microsoft Edge
 - Google Chrome 
 
-**Validation Testing**
+<br>
+<br>
+
+### **Validation Testing**
 
 The W3C Markup Validation Service was used to test the html code for the home, menu and contact pages.  Some errors were noted initially and minor changes were made to the code, including the following;
 
@@ -291,7 +305,10 @@ Following these changes, nil errors reported were reported for all html code.
 
 The CSS code was tested using the W3C Jigsaw Validation Service. Nil errors were noted. 
 
-**Performance Testing** 
+<br>
+<br>
+
+### **Performance Testing** 
 The Lighthouse performance tool was used to test all pages and the results are as follows;
 
 **Home Page:** 
@@ -309,7 +326,10 @@ The Lighthouse performance tool was used to test all pages and the results are a
 
 Of note, performance scores were reduced due to large network payloads. Images, font and icon downloads contributed to this. All images were compressed to improve loading times. The performance score could be improved upon in the future by reducing network payloads and serving images in more modern formats such as WebP and AVIF. 
 
-**Manual Testing**
+<br>
+<br>
+
+### **Manual Testing**
 
 Please find a summary table of all manual testing completed below: 
 
@@ -318,8 +338,10 @@ Please find a summary table of all manual testing completed below:
 <img src="assets/images/manual-testing.png" alt="table of manual tests completed and result">
 
 <br>
+<br>
 
-**User Goals Testing**
+## **User Goals Testing**
+
 Please find a review of each user goal below and a summary of how the website meets these requirements. 
 
 
