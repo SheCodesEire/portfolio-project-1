@@ -23,15 +23,15 @@ The Vegan Van is a food truck that serves vegan dishes to local customers and to
 ### User Stories 
 This website is targeted at both new and returning customers and considered three key client groups. These groups represent the customers most likely to engage with the business and website. 
 
-A) Local community members. 
+**User Group A: Local community members.** 
 
 User Story: Sarah is a busy mum of three living in Co. Donegal. She is proud of her local area and loves to support her community and engage in local initiatives. Sarah requires a business that is child friendly, serves as a meeting point for friends and provides healthy lunch options for her children.
 
-B)	Tourists exploring the Wild Atlantic Way.
+**User Group B: Tourists exploring the Wild Atlantic Way.**
 
 User Story: Jonah is a retired policeman touring Donegal in a campervan with his wife. Jonah requires a business where he can sit down outdoors and enjoy a coffee with a view. He seeks to immerse himself in his environment and meet the locals. 
 
-C)	Outdoor Adventurers.
+**User Group C: Outdoor Adventurers.**
 
 User Story: Richard is a surfing enthusiast. He requires a business where he can enjoy a hot drink and sweet treat after a long and exhausting morning battling the Atlantic swell. He is very health conscious and cares about the environment and sustainability. 
 
