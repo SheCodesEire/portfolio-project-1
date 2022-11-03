@@ -173,7 +173,22 @@ This website uses the following two fonts;
 These fonts were selected for their readability and simplistic style. This font pairing was inspired by the following [blog post](https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120) written by Ruth Hamilton. 
 
 
+### Imagery: 
 
-Imagery: All images were obtained from the [Unsplash website](https://unsplash.com/) and compressed using [Compress JPG](https://compressjpeg.com/) to improve page loading times. The hero image on the landing page represents a VW van, providing immediate context to the user. The flip card images attempt to demonstrate the healthy, colourful meals available for purchase. Finally, the background images on the menu and contact pages convey beautiful scenery to reflect the business’s surroundings. 
+All images were obtained from the [Unsplash website](https://unsplash.com/) and compressed using [Compress JPG](https://compressjpeg.com/) to improve page loading times. The hero image on the landing page represents a VW van, providing immediate context to the user. The flip card images attempt to demonstrate the healthy, colourful meals available for purchase. Finally, the background images on the menu and contact pages convey beautiful scenery to reflect the business’s surroundings. 
 
-Colour Scheme: The colour scheme includes earthy, neutral and inviting tones. This creates a relaxed atmosphere and reflects the brand identity as an environmentally conscious business. Links, buttons, and backgrounds are styled using the same colours to create a consistent experience for the user. 
+### Colour Scheme: 
+
+The colour scheme includes earthy, neutral and inviting tones. This creates a relaxed atmosphere and reflects the brand identity as an environmentally conscious business. Links, buttons, and backgrounds are styled using the same colours to create a consistent experience for the user. 
+
+## Languages 
+
+This website was developed using [HTML](https://en.wikipedia.org/wiki/HTML) and [CSS](https://en.wikipedia.org/wiki/CSS).
+
+**Other resources utilised:**
+- [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZk0S7N9dTBqOmMjucEl-RaHrCALaWfywQkMhjhyDnrqvvjzUIS_84xoCNJwQAvD_BwE)
+- [Github](https://github.com/)
+- [Gitpod](https://www.gitpod.io/?utm_source=googleads&utm_medium=search&utm_campaign=dynamic_search_ads&utm_id=16501579379&utm_content=dsa&gclid=CjwKCAjwzY2bBhB6EiwAPpUpZh-ASwOdf27vGLxUADgOCQDDFsIZEXFEJC_wF99ftbfAkiIxmDDV4BoCzBMQAvD_BwE)
+- [Font Awesome](https://fontawesome.com/) 
+- [Google Fonts](https://fonts.google.com/)
+- [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
