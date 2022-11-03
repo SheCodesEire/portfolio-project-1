@@ -34,6 +34,8 @@ The Vegan Van is a food truck that serves vegan dishes to local customers and to
     - [User Goals Testing](#user-goals-testing)
 * [Deployment](#deployment)
 * [Credits](#credits)
+    - [Media and Design](#media-and-design)
+    - [Code](#code)
 
 
 ## User Experience 
@@ -340,7 +342,7 @@ Please find a summary table of all manual testing completed below:
 <br>
 <br>
 
-## **User Goals Testing**
+### **User Goals Testing**
 
 Please find a review of each user goal below and a summary of how the website meets these requirements. 
 
@@ -444,13 +446,16 @@ The site was then deployed and a URL was created by GitHub Pages.
 
 [Follow this link to access the website.](https://shecodeseire.github.io/portfolio-project-1/)
 
-## Unfixed Bugs
+### Unfixed Bugs
 
 There are currently no known bugs left unfixed within the website. 
 
+<br>
+<br>
+
 ## Credits
 
-**Media and Design**
+### **Media and Design**
 1. All images were obtained from [Unsplash](https://unsplash.com/): 
 - The image of the Cliffs of Moher was taken by Henrique Craveiro. Link to his Unsplash profile [here.](https://unsplash.com/@hocraveiro)
 - The VW van hero image was taken by Caleb George. Link to his Unsplash profile [here](https://unsplash.com/@seemoris)
@@ -462,7 +467,7 @@ There are currently no known bugs left unfixed within the website.
 3. The website's font-pairing was inspired by the following [blog post](https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120) written by Ruth Hamilton. 
 
 
-**Code**
+### **Code**
 
 1. The zoom effect added to the hero image on the home page was created with support from the Code Institute Tutorial, as part of the "Love Running" walkthrough project. 
 
