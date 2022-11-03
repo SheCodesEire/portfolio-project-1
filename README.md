@@ -145,3 +145,34 @@ Three clean and concise panels provide information on the business’s set menu 
 **Online Orders:** There is scope for an online ordering feature that would allow customers to place their order online prior to their visit to reduce waiting times.
 
 
+## Design
+
+Wireframes: 
+
+This site was designed using pen and paper sketches initially followed by wireframes created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZiC_r2yCcRAPVgL-qLMz8Ii7YTAcwitZP7q-l_gcA9LcTbEchPfaQxoCLG8QAvD_BwE). Please find a selection of the completed wireframes below; 
+
+**Sample 1 : Landing Page (for small devices)**
+
+<img src="assets/images/mobile-wireframe.png" alt="screenshot of mobile design for landing page">
+
+**Sample 2 : Menu Page (for larger devices)**
+
+<img src="assets/images/menu-wireframe.png" alt="screenshot of desktop design for menu page">
+
+**Sample 3 : Contact Page (for larger devices)**
+
+<img src="assets/images/contact-wireframe.png" alt="screenshot of desktop design for contact page">
+
+
+### Typography: 
+
+This website uses the following two fonts;
+- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display/about?query=play).
+- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro/about?query=Source+sans+pro).
+
+These fonts were selected for their readability and simplistic style. This font pairing was inspired by the following [blog post](https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120) written by Ruth Hamilton. 
+
+
+
+Imagery: All images were obtained from the X website and compressed using X to improve page loading times. The hero image on the landing page represents a VW van, providing immediate context to the user. The flip card images attempt to demonstrate the healthy, vibrant meals available. Finally, the background images on the menu and contact pages convey beautiful scenery to reflect the business’s surroundings and respect for nature. 
+Colour Scheme: The colour scheme includes earthy, neutral and inviting tones. This creates a relaxed atmosphere on the site and reflects the brand identity as an environmentally conscious and grounded business. Links, buttons, and backgrounds are styled using the same colours to ensure consistent branding. 
