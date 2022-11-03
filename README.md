@@ -84,6 +84,9 @@ The logo comprises of a simple icon located to the left of the business name. It
 
 **Navigation Bar:**
 The navigation bar provides links to the home, menu and contact pages. It is styled in a clean and minimalistic manner and allows users to intuitively navigate between site pages. This feature is fully responsive and will float the left on smaller screens. 
+
+<img src="assets/images/navbar.png" alt="screenshot of navbar">
+
 **Footer:**
 The footer provides several key features; 
 - Address: Note that the “Address” heading serves as a link to the business’s location on google maps. This link opens in a new tab to avoid customers leaving the site without a means of returning. 
@@ -93,26 +96,48 @@ A phone number for the business.
 - Social Media icons: Four social media icons open key social media websites in a new tab. These icons also change colour and size when hovered over. 
 All icons contain aria labels to maintain accessibility. 
 
+<img src="assets/images/footer.png" alt="screenshot of footer">
+
 #### Landing Page Features: 
+
 **Hero Image and Cover Text:** The hero image displays an image of a Volkswagen Van, providing immediate context for the site user. The text overlay includes a catchy slogan to add to the professionalism of the site and helps the site user to better understand the company’s brand. The hero image includes a zoom effect to add visual appeal. 
-**Information Section:**
+
+**Welcome Section:**
 This section was designed for skim reading and allows the user to quickly learn about the business’s purpose, mission and value for customers. This section contains a link to the menu page. This link is styled as a button and changes colour when hovered over. 
+
+<img src="assets/images/welcome-section.png" alt="screenshot of welcome section">
+
 **Flip Cards:**
 Two eye-catching flip cards encourage the user to interact with the site and provide key information regarding the company’s commitment to sustainability and community service. These cards are fully responsive and will re-position from a row to column layout on smaller screens. 
+
+<img src="assets/images/flip-cards.png" alt="screenshot of flip cards">
+
 **Reviews:**
 This section allows the user to learn more about previous customer’s experiences with the business. A second link styled as a button allows the user to intuitively navigate to the menu page. 
 
+<img src="assets/images/reviews (2).png" alt="screenshot of reviews section">
+
 #### Menu Page Features: 
+
 **Menu Panels:** 
 Three clean and concise panels provide information on the business’s set menu and pricing. The menu items are organised with information hierarchy in mind; breakfast items are presented first, followed by lunch items and finally drinks and snacks. Each menu item has a creative name to add interest for the user. These panels are responsive and will re-arrange to a column format on smaller screens. There is a strong contrast between the text and background colour to enable easy reading for visually impaired site users. 
+
+<img src="assets/images/menu-screenshot.png" alt="screenshot of menu panels">
 
 **Contact Page Link:** A call to action is included below the menu panels, allowing the user to easily navigate to the contact page. This link changes in size and colour when hovered over. 
 
 #### Contact Page Features: 
 
 **Background Image:** This page contains a background image that remains in place as the user scrolls through the page to add visual appeal. The image reflects the business’s brand as an establishment that values the environment and is situated along the Wild Atlantic Way. 
+
 **Contact Form:** The contact form enables the user to contact the business directly. Users are required to fill out all four sections before the form can be submitted successfully. For computers and laptops, the arrow changes to a pointer when the “send” button is hovered over. 
+
+<img src="assets/images/contact-form.png" alt="screenshot of contact form">
+
+
 **Map:** A large google map of the business’s location is included at the bottom of the contact page. Users can zoom in and out of the map and drag the map to move it around on the screen. 
+
+<img src="assets/images/map.png" alt="screenshot of map">
 
 ### Features Not Yet Implemented
 
