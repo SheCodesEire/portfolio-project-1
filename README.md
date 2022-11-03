@@ -192,3 +192,34 @@ This website was developed using [HTML](https://en.wikipedia.org/wiki/HTML) and 
 - [Font Awesome](https://fontawesome.com/) 
 - [Google Fonts](https://fonts.google.com/)
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+
+
+## Testing 
+
+**Responsiveness:** 
+This site was tested for responsiveness using chrome developer tools. Media queries were added for six breakpoints to cater for a wide range of screen sizes. Four breakpoints were selected using current best practice guidelines set out by [W3Schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp). An additional two breakpoints were selected to solve a specific sizing issue relevant to the site in question. 
+
+Please find a summary of the main changes added at each breakpoint. 
+Max-width 1300px: This breakpoint was used to improve the layout and content of the menu panels for larger screens. 
+
+Max-width 992px: At this point, the menu panels and flip cards both switch to a column layout for easy reading on smaller screens. This breakpoint was also used to modify the layout and styling of the nav menu and contact form for smaller screens. 
+
+Max-width 768px: Both the reviews section and primary containers on the contact page switch to a column layout for improved readibility. Of note, at this screensize the contact form container displays first, followed by the contact information container to ensure that the most important information is displayed first for site user. The size of several headings and sections of text is reduced at this point to fit better on smaller screens. 
+
+Max-width 600px: Text size reduces and the footer container switches to a "wrap" layout. 
+
+Max-width 583px: This breakpoint was included to solve a bug within the navigation bar. Without this media query, there is an excess of padding above the navigation bar on small screens.  
+
+Max-width: 480px: Font size is reduced for text within the menu panels for mobile devices. The containers within the contact page are styled to fit more neatly on mobile screens. 
+
+
+During the testing phase, this site was successfully loaded on a several mobile devices, an i-pad, a small laptop and a large desktop screen.
+
+**Browser Testing**
+
+This browser was tested for functionality on the following browsers with nil issues identified:
+- Mozilla Firefox
+- Bing
+- Microsoft Edge
+- Google Chrome 
+
