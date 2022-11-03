@@ -10,17 +10,17 @@
 
 ## Introduction
 
-The Vegan Van is a food truck that serves vegan dishes to local customers and tourists exploring the Wild Atlantic Way. The van is based in Dunfanaghy, Co. Donegal. This small business promotes the use of fresh, local produce and has a strong commitment to sustainability. The website offers new and returning customers three fresh and inviting pages to explore. Customers can learn more about the company’s mission and ethos, read previous reviews, review the menu, obtain directions and contact the company if required.  
+The Vegan Van is a food truck that serves vegan dishes to local customers and tourists exploring the Wild Atlantic Way. The van is based in Dunfanaghy, Co. Donegal. This small business promotes the use of fresh, local produce and has a strong commitment to sustainability. The website offers new and returning customers three fresh and inviting pages to explore. Customers can learn more about the company’s mission and ethos, read previous reviews, explore the menu, obtain directions and contact the company if required.  
 
 
 ## Table of Contents
-* User Experience 
-* Features
-* Design
-* Technologies Used
-* Testing 
-* Deployment 
-* Credits
+* [User Experience](#user-experience) 
+* [Features](#features)
+* [Design](#design)
+* [Languages](#languages)
+* [Testing](#testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 
 ## User Experience 
