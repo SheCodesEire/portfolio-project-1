@@ -1,16 +1,17 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Vegan Van
 
-Welcome SheCodesEire,
+(Created by Anna Walsh)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img src="assets/images/all-devices-white (1).png">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+The Vegan Van is a food truck that serves vegan dishes to local customers and tourists exploring the Wild Atlantic Way. The van is based in Dunfanaghy, Co. Donegal. This small business promotes the use of fresh, local produce and has a strong commitment to sustainability. The website offers new and returning customers three fresh and inviting pages to explore. Customers can learn more about the company’s mission and ethos, read previous reviews, review the menu, obtain directions and contact the company if required.  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+
+
+
+
 
 A blue button should appear to click: _Make Public_,
 
