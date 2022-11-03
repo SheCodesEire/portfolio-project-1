@@ -198,6 +198,8 @@ This website was developed using [HTML](https://en.wikipedia.org/wiki/HTML) and 
 - [Font Awesome](https://fontawesome.com/) 
 - [Google Fonts](https://fonts.google.com/)
 - [Chrome Developer Tools](https://developer.chrome.com/docs/devtools/)
+- [Website Mockup Generator](https://websitemockupgenerator.com/)
+- [Google Maps Generator](https://google-map-generator.com/)
 
 
 ## Testing 
@@ -248,23 +250,32 @@ The Lighthouse performance tool was used to test all pages and the results are a
 
 **Home Page:** 
 
-<img src="assets/images/home-lighthouse.png">
+<img src="assets/images/home-lighthouse.png" alt="screenshot of lighthouse report for home page">
 
 **Menu Page:**
 
-<img src="assets/images/menu-lighthouse.png">
+<img src="assets/images/menu-lighthouse.png" alt="screenshot of lighthouse report for menu page">
 
 **Contact Page:**
 
-<img src="assets/images/contact-lighthouse.png">
+<img src="assets/images/contact-lighthouse.png" alt="screenshot of lighthouse report for contact page">
 
 
 Of note, performance scores were reduced due to large network payloads. Images, font and icon downloads contributed to this. All images were compressed to improve loading times. The performance score could be improved upon in the future by reducing network payloads and serving images in more modern formats such as WebP and AVIF. 
 
 **Manual Testing**
 
+Please find a summary table of all manual testing completed below: 
+
+<br>
+
+<img src="assets/images/manual-testing.png" alt="table of manual tests completed and result">
+
+<br>
 
 **User Experience**
+
+
 
 
 **Deployment**
