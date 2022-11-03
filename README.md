@@ -4,6 +4,11 @@
 
 <img src="assets/images/all-devices-white (1).png">
 
+[Follow this link to access the website.](https://shecodeseire.github.io/portfolio-project-1/)
+
+<br>
+
+## Introduction
 
 The Vegan Van is a food truck that serves vegan dishes to local customers and tourists exploring the Wild Atlantic Way. The van is based in Dunfanaghy, Co. Donegal. This small business promotes the use of fresh, local produce and has a strong commitment to sustainability. The website offers new and returning customers three fresh and inviting pages to explore. Customers can learn more about the company’s mission and ethos, read previous reviews, review the menu, obtain directions and contact the company if required.  
 
@@ -364,7 +369,17 @@ Please find a review of each user goal below and a summary of how the website me
 
 
 
-**Deployment**
+## Deployment
+
+This website was deployed using GitHub Pages. The following steps were taken to deploy the site; 
+1. Open the relevant GitHub repository.
+2. Navigate to the "Pages" subheading, within the "Code and Automation" settings section. 
+3. Select the "main" branch from the source dropdown menu. 
+4. Click save. 
+
+The site was then deployed and a URL was created by GitHub Pages. 
+
+[Follow this link to access the website.](https://shecodeseire.github.io/portfolio-project-1/)
 
 **Bugs**
 
