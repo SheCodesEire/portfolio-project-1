@@ -167,12 +167,13 @@ This site was designed using pen and paper sketches initially followed by wirefr
 ### Typography: 
 
 This website uses the following two fonts;
-- [Playfair Display](https://fonts.google.com/specimen/Playfair+Display/about?query=play).
-- [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro/about?query=Source+sans+pro).
+- [Playfair Display.](https://fonts.google.com/specimen/Playfair+Display/about?query=play)
+- [Source Sans Pro.](https://fonts.google.com/specimen/Source+Sans+Pro/about?query=Source+sans+pro)
 
 These fonts were selected for their readability and simplistic style. This font pairing was inspired by the following [blog post](https://www.creativebloq.com/typography/20-perfect-type-pairings-3132120) written by Ruth Hamilton. 
 
 
 
-Imagery: All images were obtained from the X website and compressed using X to improve page loading times. The hero image on the landing page represents a VW van, providing immediate context to the user. The flip card images attempt to demonstrate the healthy, vibrant meals available. Finally, the background images on the menu and contact pages convey beautiful scenery to reflect the business’s surroundings and respect for nature. 
-Colour Scheme: The colour scheme includes earthy, neutral and inviting tones. This creates a relaxed atmosphere on the site and reflects the brand identity as an environmentally conscious and grounded business. Links, buttons, and backgrounds are styled using the same colours to ensure consistent branding. 
+Imagery: All images were obtained from the [Unsplash website](https://unsplash.com/) and compressed using [Compress JPG](https://compressjpeg.com/) to improve page loading times. The hero image on the landing page represents a VW van, providing immediate context to the user. The flip card images attempt to demonstrate the healthy, colourful meals available for purchase. Finally, the background images on the menu and contact pages convey beautiful scenery to reflect the business’s surroundings. 
+
+Colour Scheme: The colour scheme includes earthy, neutral and inviting tones. This creates a relaxed atmosphere and reflects the brand identity as an environmentally conscious business. Links, buttons, and backgrounds are styled using the same colours to create a consistent experience for the user. 
