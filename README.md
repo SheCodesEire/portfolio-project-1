@@ -2,7 +2,7 @@
 
 (Created by Anna Walsh)
 
-<img src="assets/images/all-devices-white (1).png">
+<img src="assets/images/all-devices-white.png">
 
 [Follow this link to access the website.](https://shecodeseire.github.io/portfolio-project-1/)
 
@@ -119,7 +119,7 @@ Two eye-catching flip cards encourage the user to interact with the site and pro
 **Reviews:**
 This section allows the user to learn more about previous customer’s experiences with the business. A second link styled as a button allows the user to intuitively navigate to the menu page. 
 
-<img src="assets/images/reviews (2).png" alt="screenshot of reviews section">
+<img src="assets/images/reviews.png" alt="screenshot of reviews section">
 
 #### Menu Page Features: 
 
@@ -381,7 +381,15 @@ The site was then deployed and a URL was created by GitHub Pages.
 
 [Follow this link to access the website.](https://shecodeseire.github.io/portfolio-project-1/)
 
-**Bugs**
+## Unfixed Bugs
 
-**Credits**
+There are currently no known bugs left unfixed within the website. 
+
+## Credits
+
+1. All images were obtained from [Unsplash](https://unsplash.com/): 
+- The image of the Cliffs of Moher was taken by Henrique Craveiro. Link to his Unsplash profile [here.](https://unsplash.com/@hocraveiro)
+- The VW van hero image was taken by Caleb George. Link to his Unsplash profile [here](https://unsplash.com/@seemoris)
+- The flip card food images were taken by Ella Olsson (flip card one) and Sarah Dubler (flip card two). Links to their Unsplash profiles [here](https://unsplash.com/@ellaolsson) and [here.](https://unsplash.com/@ahungryblonde_)
+- The image of grass and mountains on the menu page was taken by Ales Krivek. Link to his Unsplash profile [here.](https://unsplash.com/@aleskrivec)
 
